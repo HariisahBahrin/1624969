@@ -10,25 +10,25 @@
   
   <tr>
     <td class="auto-style3"> <!--BOX1-->
-		<div class="product_img"><a href=""><img src="images/icons/FG002.jpg" width="80" height="80" alt="CodeGeassLelouch" /></a></div>
+		<div class="product_img"><a href="default.aspx"><img src="images/icons/FG002.jpg" width="80" height="80" alt="CodeGeassLelouch" /></a></div>
 		<ul class="product_ul">
-		  <li class="product_name"><a href="">ARTFX J - Code Geass Lelouch of the Rebellion R2 Lelouch 1/8 Complete Figure</a></li>
+		  <li class="product_name"><a href="default.aspx">ARTFX J - Code Geass Lelouch of the Rebellion R2 Lelouch 1/8 Complete Figure</a></li>
 			<li class="in_stock">IN-STOCK</li>
 		    <li class="product_price"> BND$180.00 </li>
 		</ul>
 	    </td>
     <td class="auto-style2"> <!--BOX4-->
-		<div class="product_img"><a href=""><img src="images/icons/FG014.jpg" width="80" height="80" alt="PlayArtsCloudStrife" /></a></div>
+		<div class="product_img"><a href="default.aspx"><img src="images/icons/FG014.jpg" width="80" height="80" alt="PlayArtsCloudStrife" /></a></div>
 		<ul class="product_ul">
-		  <li class="product_name"><a href="">Play Arts Kai - Final Fantasy VII Remake No.1 Cloud Strife</a></li>
+		  <li class="product_name"><a href="default.aspx">Play Arts Kai - Final Fantasy VII Remake No.1 Cloud Strife</a></li>
 			<li class="in_stock">IN-STOCK</li>
 		    <li class="product_price"> BND$250.00 </li>
 		</ul>
 	    </td> 
     <td class="auto-style1"> <!--BOX7-->
-		<div class="product_img"><a href=""><img src="images/icons/FG013.jpg" width="80" height="80" alt="MegaHouseKagamiTaiga" /></a></div>
+		<div class="product_img"><a href="default.aspx"><img src="images/icons/FG013.jpg" width="80" height="80" alt="MegaHouseKagamiTaiga" /></a></div>
 		<ul class="product_ul">
-		  <li class="product_name"><a href="">Kuroko's Basketball Figure Series - Kuroko's Basketball Taiga Kagami 1/8 Complete Figure</a></li>
+		  <li class="product_name"><a href="default.aspx">Kuroko's Basketball Figure Series - Kuroko's Basketball Taiga Kagami 1/8 Complete Figure</a></li>
 			<li class="in_stock">IN-STOCK</li>
 		    <li class="product_price"> BND$122.00 </li>
 		</ul>
@@ -36,9 +36,9 @@
   </tr>
   <tr>
     <td class="auto-style3"> <!--BOX2-->
-		<div class="product_img"><a href=""><img src="images/icons/FG015.jpg" width="80" height="80" alt="PlayArtsDeadpool" /></a></div>
+		<div class="product_img"><a href="default.aspx"><img src="images/icons/FG015.jpg" width="80" height="80" alt="PlayArtsDeadpool" /></a></div>
 		<ul class="product_ul">
-		  <li class="product_name"><a href="">Variant Play Arts Kai - MARVEL UNIVERSE Deadpool</a></li>
+		  <li class="product_name"><a href="default.aspx">Variant Play Arts Kai - MARVEL UNIVERSE Deadpool</a></li>
 			<li class="sold_out">SOLD OUT</li>
 		    <li class="product_price"> BND$200.00 </li>
 		</ul>

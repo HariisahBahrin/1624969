@@ -10,25 +10,25 @@
   
   <tr>
     <td class="auto-style3"> <!--BOX1-->
-		<div class="product_img"><a href=""><img src="images/icons/FG001.jpg" width="80" height="80" alt="FateGrandOrderSaber" /></a></div>
+		<div class="product_img"><a href="default.aspx"><img src="images/icons/FG001.jpg" width="80" height="80" alt="FateGrandOrderSaber" /></a></div>
 		<ul class="product_ul">
-		  <li class="product_name"><a href="">FateGrand Order - Saber  Altria Pendragon [Alter] Dress Ver. 17 Complete Figure</a></li>
+		  <li class="product_name"><a href="default.aspx">FateGrand Order - Saber  Altria Pendragon [Alter] Dress Ver. 17 Complete Figure</a></li>
 			<li class="in_stock">IN-STOCK</li>
 		    <li class="product_price"> BND$150.00 </li>
 		</ul>
 	    </td>
     <td class="auto-style2"> <!--BOX4-->
-		<div class="product_img"><a href=""><img src="images/icons/FG003.jpg" width="80" height="80" alt="MarvelBishoujoLadyDeadpool" /></a></div>
+		<div class="product_img"><a href="default.aspx"><img src="images/icons/FG003.jpg" width="80" height="80" alt="MarvelBishoujoLadyDeadpool" /></a></div>
 		<ul class="product_ul">
-		  <li class="product_name"><a href="">MARVEL BISHOUJO - MARVEL UNIVERSE Lady Deadpool 17 Complete Figure</a></li>
+		  <li class="product_name"><a href="default.aspx">MARVEL BISHOUJO - MARVEL UNIVERSE Lady Deadpool 17 Complete Figure</a></li>
 			<li class="in_stock">IN-STOCK</li>
 		    <li class="product_price"> BND$123.00 </li>
 		</ul>
 	    </td> 
     <td class="auto-style1"> <!--BOX7-->
-		<div class="product_img"><a href=""><img src="images/icons/FG009.jpg" width="80" height="80" alt="ImasRiina" /></a></div>
+		<div class="product_img"><a href="default.aspx"><img src="images/icons/FG009.jpg" width="80" height="80" alt="ImasRiina" /></a></div>
 		<ul class="product_ul">
-		  <li class="product_name"><a href="">THE IDOLM@STER Cinderella Girls - Riina Tada 18 Complete Figure</a></li>
+		  <li class="product_name"><a href="default.aspx">THE IDOLM@STER Cinderella Girls - Riina Tada 18 Complete Figure</a></li>
 			<li class="in_stock">IN-STOCK</li>
 		    <li class="product_price"> BND$110.00 </li>
 		</ul>
@@ -36,17 +36,17 @@
   </tr>
   <tr>
     <td class="auto-style3"> <!--BOX2-->
-		<div class="product_img"><a href=""><img src="images/icons/FG005.jpg" width="80" height="80" alt="figfixHonoka" /></a></div>
+		<div class="product_img"><a href="default.aspx"><img src="images/icons/FG005.jpg" width="80" height="80" alt="figfixHonoka" /></a></div>
 		<ul class="product_ul">
-		  <li class="product_name"><a href="">figFIX - Love Live! School Idol Festival Honoka Kosaka Cheerleader ver. Complete Figure</a></li>
+		  <li class="product_name"><a href="default.aspx">figFIX - Love Live! School Idol Festival Honoka Kosaka Cheerleader ver. Complete Figure</a></li>
 		<li class="in_stock">IN-STOCK</li>
             <li class="product_price">BND$89.00</li>
 		</ul>
 	    </td>
     <td class="auto-style2"> <!--BOX5-->
-		<div class="product_img"><a href=""><img src="images/icons/FG010.jpg" width="80" height="80" alt="figfixRin" /></a></div>
+		<div class="product_img"><a href="default.aspx"><img src="images/icons/FG010.jpg" width="80" height="80" alt="figfixRin" /></a></div>
 		<ul class="product_ul">
-		  <li class="product_name"><a href="">figFIX - Love Live! School Idol Festival Rin Hoshizora Cheerleader ver. Complete Figure</a></li>
+		  <li class="product_name"><a href="default.aspx">figFIX - Love Live! School Idol Festival Rin Hoshizora Cheerleader ver. Complete Figure</a></li>
 			<li class="pre_order">PRE-ORDER AVAILABLE</li>
 		  <li class="product_day">Release date: Sep-2017</li>
 
@@ -54,9 +54,9 @@
 		</ul>
 	    </td> 
     <td class="auto-style1"> <!--BOX8-->
-		<div class="product_img"><a href=""><img src="images/icons/FG006.jpg" width="80" height="80" alt="figfixKotori" /></a></div>
+		<div class="product_img"><a href="default.aspx"><img src="images/icons/FG006.jpg" width="80" height="80" alt="figfixKotori" /></a></div>
 		<ul class="product_ul">
-		  <li class="product_name"><a href="">figFIX - Love Live! School Idol Festival Kotori Minami Cheerleader ver. Complete Figure</a></li>
+		  <li class="product_name"><a href="default.aspx">figFIX - Love Live! School Idol Festival Kotori Minami Cheerleader ver. Complete Figure</a></li>
 			<li class="pre_order">PRE-ORDER AVAILABLE</li>
 		  <li class="product_day">Release date: Jun-2017</li>
 

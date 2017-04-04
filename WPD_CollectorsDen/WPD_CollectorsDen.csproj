@@ -105,6 +105,7 @@
     <Content Include="products.aspx" />
     <Content Include="scripts\map.js" />
     <Content Include="Site1.Master" />
+    <None Include="Properties\PublishProfiles\1624969.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

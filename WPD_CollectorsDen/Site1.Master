@@ -68,8 +68,8 @@
         </ul>
     </td> 
       <td class="socialmedialinksbox"> <!--Social Media Links-->
-        <a href=""><img src="images/icons/fb-icon.png" alt="fblogo" width="30" height="30"/> </a>
-	    <a href=""><img src="images/icons/twitter-icon.png" alt="fblogo" width="30" height="30"/> </a>
+        <a href="default.aspx"><img src="images/icons/fb-icon.png" alt="fblogo" width="30" height="30"/> </a>
+	    <a href="default.aspx"><img src="images/icons/twitter-icon.png" alt="fblogo" width="30" height="30"/> </a>
                 
     </td> 
     
