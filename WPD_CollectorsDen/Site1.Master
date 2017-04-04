@@ -1,0 +1,86 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WPD_CollectorsDen.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<title> Collector's Den</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="page">
+
+<div id="logo"> <!--Header--> <!--Website Logo--> 
+<a href="~/default.aspx" runat="server"><img src="images/logo/logo.png" alt="logo" width="auto" height="200px"/> </a>
+    <img src="images/banner/line.png" />&nbsp;
+</div>
+
+        <br />
+        <br />
+
+<div><!--Navigation-->
+<ul id= "nav"> 
+	<li><a href="default.aspx"> Home </a></li>
+	<li><a href="products.aspx"> Products </a> </li>
+	<li><a href="about_us.aspx"> About Us</a></li>
+	<li><a href="contact.aspx"> Contact Us </a></li>
+</ul>
+</div>
+
+<div>
+<ul id="category">
+	<li><a href="female_figures.aspx"> Female Figures </a> </li>
+	<li><a href="male_figures.aspx"> Male Figures </a></li>
+</ul>
+</div>
+<!--Header Ends-->
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            <!--Leave this empty-->
+        </asp:ContentPlaceHolder>
+</div>
+
+<div id="footer"> <!--Footer-->
+    <table style="width:100%">
+  <tr>
+    <th class="auto-style4"><h3 style="width: 171px"> Category </h3></th>
+    <th class="auto-style3"><h3 style="width: 174px"> Help Center </h3></th> 
+    <th class="auto-style5"><h3 style="margin-left: 4px; width: 123px;"> Social Media </h3></th>
+  </tr>
+  <tr>
+    <td class="categorylinksbox"> <!--Category Links-->
+        <ul>
+	    <li><a href="female_figures.aspx"> Female Figures </a> </li>
+	    <li><a href="male_figures.aspx"> Male Figures </a></li>
+        <li><a href="products.aspx"> All Products </a></li>
+        </ul>
+    </td> 
+    <td class="helplinksbox"> <!--Help Links-->
+        <ul>
+	    <li><a href="about_us.aspx"> About Us </a> </li>
+	    <li><a href="contact.aspx"> Contact Us </a></li>
+        <li><a href="about_us.aspx"> FAQ </a></li>
+        </ul>
+    </td> 
+      <td class="socialmedialinksbox"> <!--Social Media Links-->
+        <a href=""><img src="images/icons/fb-icon.png" alt="fblogo" width="30" height="30"/> </a>
+	    <a href=""><img src="images/icons/twitter-icon.png" alt="fblogo" width="30" height="30"/> </a>
+                
+    </td> 
+    
+  </tr>
+  
+</table>
+    
+
+
+    
+    &copy; 2017, All rights reserved</div>
+
+
+    </form>
+</body>
+</html>

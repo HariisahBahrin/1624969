@@ -1,0 +1,206 @@
+﻿#page{
+	margin-left: auto;
+	margin-right: auto;
+	width:1000px;
+	height: auto;
+	padding: 10px 10px 10px 10px;
+	position: relative;
+}
+
+#logo{
+	float: left;
+    border-bottom: 10px dotted black;
+     }
+
+#banner{
+    float:initial;
+}
+
+body{
+	background-repeat:no-repeat;
+	background-attachment:fixed;	
+	color: black;
+	font-family: arial;
+	margin:10px;
+   padding:0;
+   height:100%;
+}
+	
+#nav{
+	width: auto;
+	height: auto;
+    padding-top: 20px;
+	padding: 10px;
+	margin: 15px;
+	text-align: center;
+	
+}
+
+#nav li{
+	text-align: center;
+	font-family: arial;
+	font-size: 20px;
+	display: inline;
+	list-style-type: none;
+	width: auto;
+	height: auto;
+	text-align: center;
+	font-weight: bold;
+	margin: 30px;
+}
+
+
+#category{
+	background-color: white;
+	width: 983px;
+	height: 27px;
+	padding: 10px;
+	margin: 5px;
+	text-align: center;
+	
+}
+
+#category li{
+	text-align: center;
+	font-family: arial;
+	font-size: 20px;
+	display: inline;
+	list-style-type: none;
+	width: auto;
+	height: auto;
+	text-align: center;
+	font-weight: bold;
+	margin: 30px;
+}
+
+#contactindex{
+	text-align: left;
+	font-size: 14px;
+	float:right;
+	width: 150px;
+	height: auto;
+	padding: 10px 10px 10px 10px;
+	margin: 10px;
+	border: solid black;
+	background-color:#80B2E6;
+}
+
+a:link{
+	color: grey;
+}
+
+a:visited{
+	color: maroon;
+}
+
+a:hover{
+	color: lavender;
+}
+
+
+
+#indexgallery{
+	position:relative;
+	margin: 10px;
+	
+	
+}
+
+#gallery{	
+	position: relative;
+	text-align: center;
+	list-style-type: none;
+	
+	
+}
+
+
+#footer{
+	background-color: lavender;
+	border: solid black 3px;
+	color: Black;
+	margin:5px;
+	padding: 15px;
+	text-align: left;
+	bottom:0;
+	clear: both;
+	position: relative;
+    	
+}
+
+#footer li{
+    list-style-type: none;
+}
+
+#top_page{
+    text-align: center;
+}
+
+.product_img{
+    text-align: center;
+    width: 311px;
+    margin-left: 2px;
+}
+
+.product_ul{
+    list-style-type: none;
+    text-align: center;
+
+}
+
+#RequiredFields{
+    color: red;
+}
+
+.pre_order{
+    color: orangered;
+    height: 26px;
+    width: 254px;
+}
+
+.in_stock{
+    color: limegreen;
+    width: 253px;
+}
+
+.sold_out{
+    color: dimgrey;
+    width: 253px;
+}
+
+.product_name {
+    width: 250px;
+}
+.product_price {
+    width: 250px;
+}
+.product_day {
+    width: 248px;
+}
+
+.index-auto-style1 {
+    width: 286px;
+}
+
+.auto-style1{
+            width: 328px;
+        }
+.auto-style2 {
+            width: 331px;
+        }
+
+.auto-style3 {
+            width: 320px;
+        }
+
+.helplinksbox {
+            width: 230px;
+        }
+.categorylinksbox{
+            width: 150px;
+        }
+
+.socialmedialinksbox {
+            width: 320px;
+        }
+
