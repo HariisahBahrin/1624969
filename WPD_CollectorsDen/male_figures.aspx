@@ -12,7 +12,7 @@
     <td class="auto-style3"> <!--BOX1-->
 		<div class="product_img"><a href=""><img src="images/icons/FG002.jpg" width="80" height="80" alt="CodeGeassLelouch" /></a></div>
 		<ul class="product_ul">
-		  <li class="product_name"><a href="">ARTFX J - Code Geass Lelouch of the Rebellion R2 Lelouch CODE BLACK 1st Live Encore! ver. 18 Complete Figure</a></li>
+		  <li class="product_name"><a href="">ARTFX J - Code Geass Lelouch of the Rebellion R2 Lelouch 1/8 Complete Figure</a></li>
 			<li class="in_stock">IN-STOCK</li>
 		    <li class="product_price"> BND$180.00 </li>
 		</ul>
@@ -28,7 +28,7 @@
     <td class="auto-style1"> <!--BOX7-->
 		<div class="product_img"><a href=""><img src="images/icons/FG013.jpg" width="80" height="80" alt="MegaHouseKagamiTaiga" /></a></div>
 		<ul class="product_ul">
-		  <li class="product_name"><a href="">Kuroko's Basketball Figure Series - Kuroko's Basketball Taiga Kagami 18 Complete Figure</a></li>
+		  <li class="product_name"><a href="">Kuroko's Basketball Figure Series - Kuroko's Basketball Taiga Kagami 1/8 Complete Figure</a></li>
 			<li class="in_stock">IN-STOCK</li>
 		    <li class="product_price"> BND$122.00 </li>
 		</ul>

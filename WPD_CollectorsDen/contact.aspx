@@ -69,8 +69,7 @@
 			</table>
 		</fieldset> <!--End Customer message-->
 		
-				<br />
-                <br />
+				
                 <br />
 				<input type="submit" value="Submit"/> 
 										
@@ -79,12 +78,12 @@
 	</td>
 </tr>	
     
-    			
+    	<br />		
 </table>
 </form>
 
     <fieldset><legend> Where to find us? </legend>
-    <div id="googleMap" style="width:100%;height:400px;"></div>
+    <div id="googleMap"></div>
     <script src="scripts/map.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDATOmmUjmmDpXmZ61AT_Qr0mUYYflKENk&callback=myMap"></script>
         </fieldset>
