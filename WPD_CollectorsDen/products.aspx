@@ -103,7 +103,7 @@
     <td class="auto-style3"><!--Male Figure-->
 		<div class="product_img"><a href="default.aspx"><img src="images/icons/FG015.jpg" width="80" height="80" alt="PlayArtsDeadpool" /></a></div>
 		<ul class="product_ul">
-		  <li class="product_name"><a href="">Variant Play Arts Kai - MARVEL UNIVERSE Deadpool</a></li>
+		  <li class="product_name"><a href="default.aspx">Variant Play Arts Kai - MARVEL UNIVERSE Deadpool</a></li>
 			<li class="sold_out">SOLD OUT</li>
 		    <li class="product_price"> BND$200.00 </li>
 		</ul>
