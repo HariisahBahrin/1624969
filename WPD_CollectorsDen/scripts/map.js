@@ -6,7 +6,7 @@
 
     var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
 
-    var marker = new google.maps.Marker({
+    var marker = new google.maps.Marker({ //Map Marker
         position: new google.maps.LatLng(4.885728, 114.931669),
         map: map,
     });

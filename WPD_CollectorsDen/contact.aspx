@@ -10,7 +10,9 @@
 
     
    <!--'Form'-->
-<form method="post" action="">
+<asp:Panel runat="server">
+
+    <form id="contactform1" runat="server">
 <table>
 <tr>
 	<td>
@@ -21,7 +23,8 @@
 						<label>*First Name:</label>
 					</td>
 					<td>
-						<input name="Name" type="text" id="FirstName" size="60" /> 
+						<asp:TextBox ID="txtFirstName" runat="server" size="60"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="reqNameValidator" runat="server" ControlToValidate="txtFirstName" ForeColor="Red" ErrorMessage="Please enter your first name."></asp:RequiredFieldValidator>
 					</td>
 					
 				</tr>
@@ -30,7 +33,9 @@
 						<label>*Last Name:</label>
 					</td>
 					<td>
-						<input name="Name" type="text" id="LastName" size="60" />
+						<asp:TextBox ID="txtLastName" runat="server" size="60"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="reqNameValidator2" runat="server" ControlToValidate="txtLastName" ForeColor="Red" ErrorMessage="Please enter your last name."></asp:RequiredFieldValidator>
+					
 					</td>
 					
 				</tr>
@@ -39,7 +44,9 @@
 						<label>*E-mail Address:</label>
 					</td>
 					<td>
-						<input name="Name" type="text" id="Email" size="60"/>
+						<asp:TextBox ID="txtEmail" runat="server" size="60"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="reqFieldEmail" runat="server" ControlToValidate="txtEmail" ForeColor="Red" ErrorMessage="Please enter your email."></asp:RequiredFieldValidator>
+            <asp:RegularExpressionValidator ID="RegExprChkEMail" runat="server" ControlToValidate="txtEmail" ErrorMessage="Invalid email format." ForeColor="Red" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
 					</td>
 				</tr>
 				<tr>
@@ -47,7 +54,9 @@
 						<label>Phone Number:</label>
 					</td>
 					<td>
-						<input name="Name" type="text" id="Phone_Number" size="60"/>
+						<asp:TextBox ID="txtPhoneNum" runat="server" size="60"></asp:TextBox>
+            <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="txtPhoneNum" ErrorMessage="Invalid phone number." ForeColor="Red" ValidationExpression="^\d+$"></asp:RegularExpressionValidator>
+					
 					</td>
 				</tr>
 				
@@ -56,14 +65,22 @@
 
         <br />
 
-        <fieldset><legend style="width: 65px"> Message </legend>
+        <fieldset><legend style="width: 65px"> Message </legend> 
 			<table>
+                <tr>
+					<td>
+						<label>*Subject:</label>
+					</td>
+					<td>
+						<asp:TextBox ID="txtSubject" runat="server" size="60"></asp:TextBox>
+					</td>
+				</tr>
 				<tr>
 					<td>
 						<label>*Your Message:</label>
 					</td>
 					<td>
-						<textarea id="requests" rows="20" cols="100"></textarea>
+						<asp:TextBox ID="txtMsg" runat="server" rows="20" cols="100" TextMode="MultiLine" Width="800px"></asp:TextBox>
 					</td>
 				</tr>
 			</table>
@@ -71,16 +88,23 @@
 		
 				
                 <br />
-				<input type="submit" value="Submit"/> 
+				<asp:Button ID="btnSendEmail" runat="server" OnClick="btnSendEmail_Click" Text="Submit" />
 										
 				<input type="reset" value="Clear"/> 
+                <asp:Literal ID="litResult" runat="server"></asp:Literal>
 						
 	</td>
 </tr>	
     
     	
 </table>
-</form>
+        </form>
+
+
+
+</asp:Panel>
+
+
 
     <fieldset><legend> Our Shop </legend>
     <div id="googleMap"></div>

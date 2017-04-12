@@ -211,3 +211,10 @@ a:hover{
             width: 320px;
         }
 
+loginbox{
+    float: left;
+    margin:50px;
+    padding: 300px;
+    width:300px;
+    height:300px;
+}

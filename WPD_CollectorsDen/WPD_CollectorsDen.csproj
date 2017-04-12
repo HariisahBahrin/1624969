@@ -97,6 +97,8 @@
     <Content Include="about_us.aspx" />
     <Content Include="contact.aspx" />
     <Content Include="female_figures.aspx" />
+    <Content Include="fg010.aspx" />
+    <Content Include="login.aspx" />
     <Content Include="male_figures.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
@@ -148,8 +150,22 @@
     <Compile Include="female_figures.aspx.designer.cs">
       <DependentUpon>female_figures.aspx</DependentUpon>
     </Compile>
+    <Compile Include="fg010.aspx.cs">
+      <DependentUpon>fg010.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="fg010.aspx.designer.cs">
+      <DependentUpon>fg010.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
     </Compile>
     <Compile Include="male_figures.aspx.cs">
       <DependentUpon>male_figures.aspx</DependentUpon>
@@ -178,6 +194,7 @@
     <Folder Include="App_Data\" />
     <Folder Include="images\" />
     <Folder Include="Models\" />
+    <Folder Include="products\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

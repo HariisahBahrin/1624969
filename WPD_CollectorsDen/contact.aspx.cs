@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Net.Mail;
 
 namespace WPD_CollectorsDen
 {
@@ -14,9 +15,35 @@ namespace WPD_CollectorsDen
 
         }
 
-                protected void Button1_Click(object sender, EventArgs e)
+        protected void btnSendEmail_Click(object sender, EventArgs e)
         {
+            SmtpClient smtpClient = new SmtpClient();
+            smtpClient.EnableSsl = true;
+            smtpClient.UseDefaultCredentials = false;
+            smtpClient.Host = "smtp.gmail.com";
+            smtpClient.Port = 587;
+            System.Net.NetworkCredential credentials =
+                new System.Net.NetworkCredential("riisuriisu80@gmail.com", "jolieberlinloves");
 
+            smtpClient.Credentials = credentials;
+
+            MailMessage msg = new MailMessage("c05027lcb@gmail.com", txtEmail.Text);
+            msg.Subject = "Name: " + txtFirstName.Text + " Subject: " + txtSubject.Text;
+            msg.Body = txtMsg.Text;
+            smtpClient.Send(msg);
+
+            try
+            {
+                smtpClient.Send(msg);
+                litResult.Text =
+                    "<p>Success, mail sent using SMTP with secure connection and credentials</p>";
+            }
+            catch (Exception ex)
+            {
+                //display the full error to the user
+                litResult.Text =
+                    "<p>Send failed: " + ex.Message + ":" + ex.InnerException + "</p>";
+            }
         }
     }
 }

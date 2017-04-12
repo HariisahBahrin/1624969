@@ -1,9 +1,10 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="female_figures.aspx.cs" Inherits="WPD_CollectorsDen.female_figures" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
+    
     <h1> Female Figures</h1>
       
     <table style="width:100%">

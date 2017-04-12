@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WPD_CollectorsDen.Site1" %>
+﻿5<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WPD_CollectorsDen.Site1" %>
 
 <!DOCTYPE html>
 
@@ -7,12 +7,14 @@
 <title> Collector's Den</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    
     <link rel="stylesheet" type="text/css" href="style.css"/>
+    
 </head>
 <body>
     <form id="form1" runat="server">
     <div id="page">
-<div id="login"><a href="contact.aspx"> Login </a> | <a href="contact.aspx"> Register </a>  </div>    
+<div id="login"><a href="login.aspx"> Login </a> | <a href="login.aspx"> Register </a>  </div>    
 
 <div id="logo"> <!--Header--> <!--Website Logo--> 
 <a href="~/default.aspx" runat="server"><img src="images/logo/logo.png" alt="logo" width="auto" height="200px"/> </a>
@@ -33,8 +35,8 @@
 
 <div>
 <ul id="category">
-	<li><a href="female_figures.aspx"> Female Figures </a> </li>
-	<li><a href="male_figures.aspx"> Male Figures </a></li>
+	<li><a href="products/female_figures.aspx"> Female Figures </a> </li>
+	<li><a href="products/male_figures.aspx"> Male Figures </a></li>
 </ul>
 </div>
 <!--Header Ends-->
@@ -54,8 +56,8 @@
   <tr>
     <td class="categorylinksbox"> <!--Category Links-->
         <ul>
-	    <li><a href="female_figures.aspx"> Female Figures </a> </li>
-	    <li><a href="male_figures.aspx"> Male Figures </a></li>
+	    <li><a href="products/female_figures.aspx"> Female Figures </a> </li>
+	    <li><a href="products/male_figures.aspx"> Male Figures </a></li>
         <li><a href="products.aspx"> All Products </a></li>
         </ul>
     </td> 
