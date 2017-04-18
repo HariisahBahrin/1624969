@@ -1,19 +1,18 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="contact.aspx.cs" Inherits="WPD_CollectorsDen.contact" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    
     <h2> Contact Us</h2>
-    <p>Answers to common questions can be found on our "<a href="about_us.aspx">About Us</a>" page. Please use the mail form below to contact us regarding other inquiries.</p>
+    <p>Please use the mail form below to contact us regarding other inquiries.</p>
     <p> Need help? Submit your questions to us now!</p>
     <p> Note: Please be patience with our reply. We will reply to you in 24 hours on business days. Thank you!</p>
     <p id="RequiredFields"> * Required Fields. </p>
 
     
    <!--'Form'-->
-<asp:Panel runat="server">
-
-    <form id="contactform1" runat="server">
-<table>
+ <table>
 <tr>
 	<td>
 		<fieldset><legend> Customer Information</legend>
@@ -49,17 +48,7 @@
             <asp:RegularExpressionValidator ID="RegExprChkEMail" runat="server" ControlToValidate="txtEmail" ErrorMessage="Invalid email format." ForeColor="Red" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
 					</td>
 				</tr>
-				<tr>
-					<td>
-						<label>Phone Number:</label>
-					</td>
-					<td>
-						<asp:TextBox ID="txtPhoneNum" runat="server" size="60"></asp:TextBox>
-            <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="txtPhoneNum" ErrorMessage="Invalid phone number." ForeColor="Red" ValidationExpression="^\d+$"></asp:RegularExpressionValidator>
-					
-					</td>
-				</tr>
-				
+								
 			</table>
 		</fieldset> <!--End Customer Info-->
 
@@ -81,6 +70,7 @@
 					</td>
 					<td>
 						<asp:TextBox ID="txtMsg" runat="server" rows="20" cols="100" TextMode="MultiLine" Width="800px"></asp:TextBox>
+                        <asp:RequiredFieldValidator ID="RequiredtxtMsg" runat="server" ControlToValidate="txtMsg" ForeColor="Red" ErrorMessage="Please enter your message."></asp:RequiredFieldValidator>
 					</td>
 				</tr>
 			</table>
@@ -98,11 +88,8 @@
     
     	
 </table>
-        </form>
-
-
-
-</asp:Panel>
+  <!-- Form Ends-->
+ 
 
 
 

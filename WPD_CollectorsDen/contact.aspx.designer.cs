@@ -13,15 +13,6 @@ namespace WPD_CollectorsDen {
     public partial class contact {
         
         /// <summary>
-        /// contactform1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm contactform1;
-        
-        /// <summary>
         /// txtFirstName control.
         /// </summary>
         /// <remarks>
@@ -85,24 +76,6 @@ namespace WPD_CollectorsDen {
         protected global::System.Web.UI.WebControls.RegularExpressionValidator RegExprChkEMail;
         
         /// <summary>
-        /// txtPhoneNum control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPhoneNum;
-        
-        /// <summary>
-        /// RegularExpressionValidator1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator1;
-        
-        /// <summary>
         /// txtSubject control.
         /// </summary>
         /// <remarks>
@@ -119,6 +92,15 @@ namespace WPD_CollectorsDen {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtMsg;
+        
+        /// <summary>
+        /// RequiredtxtMsg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredtxtMsg;
         
         /// <summary>
         /// btnSendEmail control.

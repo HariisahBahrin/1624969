@@ -14,7 +14,7 @@
 <body>
     <form id="form1" runat="server">
     <div id="page">
-<div id="login"><a href="login.aspx"> Login </a> | <a href="login.aspx"> Register </a>  </div>    
+<div id="login"><a href="login.aspx"> Login </a> | <a href="register.aspx"> Register </a>  </div>    
 
 <div id="logo"> <!--Header--> <!--Website Logo--> 
 <a href="~/default.aspx" runat="server"><img src="images/logo/logo.png" alt="logo" width="auto" height="200px"/> </a>

@@ -17,24 +17,24 @@ namespace WPD_CollectorsDen
 
         protected void btnSendEmail_Click(object sender, EventArgs e)
         {
-            SmtpClient smtpClient = new SmtpClient();
-            smtpClient.EnableSsl = true;
-            smtpClient.UseDefaultCredentials = false;
-            smtpClient.Host = "smtp.gmail.com";
-            smtpClient.Port = 587;
+            SmtpClient SmtpClient = new SmtpClient();
+            SmtpClient.EnableSsl = true;
+            SmtpClient.UseDefaultCredentials = false;
+            SmtpClient.Host = "smtp.gmail.com";
+            SmtpClient.Port = 587;
             System.Net.NetworkCredential credentials =
-                new System.Net.NetworkCredential("riisuriisu80@gmail.com", "jolieberlinloves");
+                new System.Net.NetworkCredential("riisuriisu80@gmail.com", "");
 
-            smtpClient.Credentials = credentials;
+            SmtpClient.Credentials = credentials;
 
-            MailMessage msg = new MailMessage("c05027lcb@gmail.com", txtEmail.Text);
+            MailMessage msg = new MailMessage("riisuriisu80@gmail.com", txtEmail.Text);
             msg.Subject = "Name: " + txtFirstName.Text + " Subject: " + txtSubject.Text;
             msg.Body = txtMsg.Text;
-            smtpClient.Send(msg);
+            SmtpClient.Send(msg);
 
             try
             {
-                smtpClient.Send(msg);
+                SmtpClient.Send(msg);
                 litResult.Text =
                     "<p>Success, mail sent using SMTP with secure connection and credentials</p>";
             }
