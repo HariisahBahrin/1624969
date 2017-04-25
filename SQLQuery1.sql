@@ -1,0 +1,8 @@
+SELECT TOP 1000 [ProductID]
+      ,[Product_Name]
+      ,[Price]
+      ,[StatusID]
+      ,[CategoryID]
+      ,[Product_Description]
+      ,[ImagePath]
+  FROM [db_1624969_collectorsden_co5027].[dbo].[Products_tbl]

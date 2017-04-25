@@ -85,22 +85,6 @@
 					
 					</td>
 				</tr>
-                <tr>
-					<td>
-						<label>*Country:</label>
-					</td>
-					<td>
-                        <asp:DropDownList ID="DropDownList1" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
-                            <asp:ListItem> Brunei Darussalam</asp:ListItem>
-                            <asp:ListItem> Malaysia </asp:ListItem>
-                        </asp:DropDownList>
-                        <!-- DROP DOWN MENU FOR COUNTRIES AVAILABLE
-						<asp:TextBox ID="TextBox2" runat="server" size="60"></asp:TextBox>
-            <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="txtAddress" ForeColor="Red" ErrorMessage="Please enter address."></asp:RequiredFieldValidator>
-					-->
-					</td>
-					
-				</tr>
                   <tr>
 					<td>
 						<label>*Address:</label>
@@ -120,10 +104,10 @@
 		
 				
                 <br />
-				<asp:Button ID="btnregister" runat="server"  Text="Register" />
-										
-				<input type="reset" value="Clear"/> 
-                
+				<asp:Button ID="btnregister" OnClick="btnregister_Click" runat="server"  Text="Register" />
+				<asp:Button ID="btnClear" OnClick="btnclear_Click" runat="server"  Text="Clear" />	
+				
+                <asp:Literal ID="litRegisterError" runat="server"></asp:Literal>
 						
 	</td>
 </tr>	

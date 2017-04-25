@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="products.aspx.cs" Inherits="WPD_CollectorsDen.products" %>
+﻿<%@ Page Title="Products" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="products.aspx.cs" Inherits="WPD_CollectorsDen.products" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
 </asp:Content>
@@ -9,7 +9,7 @@
 
     <!--Price in Ascending order or descending order-->
 
-    
+    <asp:SqlDataSource ID="db_1624969_collectorsden_co5027" runat="server" ConnectionString="<%$ ConnectionStrings:CollectorsDenConnection %>" SelectCommand="SELECT [Product_Name], [Price], [StatusID] FROM [Products_tbl]"></asp:SqlDataSource>
  <table style="width:100%">
   
   <tr>

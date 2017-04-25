@@ -1,4 +1,4 @@
-﻿5<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WPD_CollectorsDen.Site1" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WPD_CollectorsDen.Site1" %>
 
 <!DOCTYPE html>
 
@@ -8,17 +8,17 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     
-    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="~/style.css"/>
     
 </head>
 <body>
     <form id="form1" runat="server">
     <div id="page">
-<div id="login"><a href="login.aspx"> Login </a> | <a href="register.aspx"> Register </a>  </div>    
+<div id="login"><a runat="server" href="~/login.aspx"> Login </a> | <a runat="server" href="~/register.aspx"> Register </a>  </div>    
 
 <div id="logo"> <!--Header--> <!--Website Logo--> 
-<a href="~/default.aspx" runat="server"><img src="images/logo/logo.png" alt="logo" width="auto" height="200px"/> </a>
-    <img src="images/banner/line.png" style="height: 160px; width: 653px" />&nbsp;
+<a href="~/default.aspx" runat="server"><img id="logoimg" runat="server" src="~/images/logo/logo.png" alt="logo" /> </a>
+    <img id="bannerimg" runat="server" src="~/images/banner/line.png"/>&nbsp;
 </div>
 
         <br />
@@ -26,17 +26,17 @@
 
 <div><!--Navigation-->
 <ul id= "nav"> 
-	<li><a href="default.aspx"> Home </a></li>
-	<li><a href="products.aspx"> Products </a> </li>
-	<li><a href="about_us.aspx"> About Us</a></li>
-	<li><a href="contact.aspx"> Contact Us </a></li>
+	<li><a runat="server" href="~/default.aspx"> Home </a></li>
+	<li><a runat="server" href="~/products/products.aspx"> Products </a> </li>
+	<li><a runat="server" href="~/about_us.aspx"> About Us</a></li>
+	<li><a runat="server" href="~/contact.aspx"> Contact Us </a></li>
 </ul>
 </div>
 
 <div>
 <ul id="category">
-	<li><a href="products/female_figures.aspx"> Female Figures </a> </li>
-	<li><a href="products/male_figures.aspx"> Male Figures </a></li>
+	<li><a runat="server" href="~/products/female_figures.aspx"> Female Figures </a> </li>
+	<li><a runat="server" href="~/products/male_figures.aspx"> Male Figures </a></li>
 </ul>
 </div>
 <!--Header Ends-->
@@ -56,22 +56,22 @@
   <tr>
     <td class="categorylinksbox"> <!--Category Links-->
         <ul>
-	    <li><a href="products/female_figures.aspx"> Female Figures </a> </li>
-	    <li><a href="products/male_figures.aspx"> Male Figures </a></li>
-        <li><a href="products.aspx"> All Products </a></li>
+	    <li><a runat="server" href="~/products/female_figures.aspx"> Female Figures </a> </li>
+	    <li><a runat="server" href="~/products/male_figures.aspx"> Male Figures </a></li>
+        <li><a runat="server" href="~/products/products.aspx"> All Products </a></li>
         </ul>
     </td> 
     <td class="helplinksbox"> <!--Help Links-->
         <ul>
-	    <li><a href="about_us.aspx"> About Us </a> </li>
-	    <li><a href="contact.aspx"> Contact Us </a></li>
-        <li><a href="about_us.aspx"> FAQ </a></li>
-        <li><a href="login.aspx"> Login </a></li>
+	    <li><a runat="server" href="~/about_us.aspx"> About Us </a> </li>
+	    <li><a runat="server" href="~/contact.aspx"> Contact Us </a></li>
+        <li><a runat="server" href="~/about_us.aspx"> FAQ </a></li>
+        <li><a runat="server" href="~/login.aspx"> Login </a></li>
         </ul>
     </td> 
       <td class="socialmedialinksbox"> <!--Social Media Links-->
-        <a href="default.aspx"><img src="images/icons/fb-icon.png" alt="fblogo" width="30" height="30"/> </a>
-	    <a href="default.aspx"><img src="images/icons/twitter-icon.png" alt="fblogo" width="30" height="30"/> </a>
+        <a runat="server" href="~/default.aspx"><img runat="server" src="~/images/icons/fb-icon.png" alt="fblogo" width="30" height="30"/> </a>
+	    <a runat="server" href="~/default.aspx"><img runat="server" src="~/images/icons/twitter-icon.png" alt="fblogo" width="30" height="30"/> </a>
                 
     </td> 
     

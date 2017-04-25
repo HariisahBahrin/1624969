@@ -12,9 +12,15 @@
     border-bottom: 10px dotted black;
      }
 
-#banner{
+#bannerimg{
     float:initial;
+    height: 160px;
+    width: 653px;
 }
+
+#logoimg{
+    height: 200px;
+    }
 
 body{
 	background-repeat:no-repeat;

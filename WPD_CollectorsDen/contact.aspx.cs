@@ -16,27 +16,28 @@ namespace WPD_CollectorsDen
         }
 
         protected void btnSendEmail_Click(object sender, EventArgs e)
-        {
-            SmtpClient SmtpClient = new SmtpClient();
-            SmtpClient.EnableSsl = true;
-            SmtpClient.UseDefaultCredentials = false;
-            SmtpClient.Host = "smtp.gmail.com";
-            SmtpClient.Port = 587;
-            System.Net.NetworkCredential credentials =
-                new System.Net.NetworkCredential("riisuriisu80@gmail.com", "");
 
-            SmtpClient.Credentials = credentials;
+        {   //Following codes are provided and freely to used by www.aspsnippets.com
+            MailMessage msg = new MailMessage(txtEmail.Text, "project8clothes@gmail.com");
+            msg.Subject = txtSubject.Text;
+            msg.Body = "Name: " + txtFirstName.Text + txtLastName.Text + "<br /><br />Email: " + txtEmail.Text + "<br />" + txtMsg.Text;
 
-            MailMessage msg = new MailMessage("riisuriisu80@gmail.com", txtEmail.Text);
-            msg.Subject = "Name: " + txtFirstName.Text + " Subject: " + txtSubject.Text;
-            msg.Body = txtMsg.Text;
-            SmtpClient.Send(msg);
-
+            msg.IsBodyHtml = true;
+            SmtpClient smclient = new SmtpClient();
+            smclient.Host = "smtp.gmail.com";
+            smclient.EnableSsl = true;
+            System.Net.NetworkCredential credentials = new System.Net.NetworkCredential();
+            credentials.UserName = "project8clothes@gmail.com";
+            credentials.Password = "dbs@12345";
+            smclient.UseDefaultCredentials = true;
+            smclient.Credentials = credentials;
+            smclient.Port = 587;
+            smclient.Send(msg);
             try
             {
-                SmtpClient.Send(msg);
+                smclient.Send(msg);
                 litResult.Text =
-                    "<p>Success, mail sent using SMTP with secure connection and credentials</p>";
+                    "<p>Your Message has been sent!</p>";
             }
             catch (Exception ex)
             {
@@ -46,4 +47,5 @@ namespace WPD_CollectorsDen
             }
         }
     }
+
 }

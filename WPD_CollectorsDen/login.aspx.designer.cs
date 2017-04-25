@@ -13,13 +13,13 @@ namespace WPD_CollectorsDen {
     public partial class login {
         
         /// <summary>
-        /// txtusername control.
+        /// txtloginusername control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtusername;
+        protected global::System.Web.UI.WebControls.TextBox txtloginusername;
         
         /// <summary>
         /// reqNameValidator control.
@@ -31,13 +31,13 @@ namespace WPD_CollectorsDen {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator reqNameValidator;
         
         /// <summary>
-        /// txtpassword control.
+        /// txtloginpassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtpassword;
+        protected global::System.Web.UI.WebControls.TextBox txtloginpassword;
         
         /// <summary>
         /// reqPasswordValidator control.
@@ -49,12 +49,21 @@ namespace WPD_CollectorsDen {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator reqPasswordValidator;
         
         /// <summary>
-        /// Button1 control.
+        /// btnlogin control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button btnlogin;
+        
+        /// <summary>
+        /// litLoginError control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal litLoginError;
     }
 }

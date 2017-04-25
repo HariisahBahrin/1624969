@@ -1,11 +1,12 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="female_figures.aspx.cs" Inherits="WPD_CollectorsDen.female_figures" %>
+﻿<%@ Page Title="Female Figures" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="female_figures.aspx.cs" Inherits="WPD_CollectorsDen.female_figures" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    
+     <h1><%: Title %></h1>
+
 
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<asp:Content ID="BodyContent" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
-    <h1> Female Figures</h1>
+   
       
     <table style="width:100%">
   
