@@ -1,10 +1,10 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="WPD_CollectorsDen._default" %>
+﻿<%@ Page Title="Homepage" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="WPD_CollectorsDen._default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div id="indexpage">
     <div id="top_page">
-        <img alt="banner_barbatos" id="bannerimg" src="images/banner/banner_01.jpg" />&nbsp;</div>
+        <img alt="banner_barbatos" id="banner_index" src="images/banner/banner_01.jpg" />&nbsp;</div>
 
         <br />
 

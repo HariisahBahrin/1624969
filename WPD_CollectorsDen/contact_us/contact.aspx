@@ -54,7 +54,7 @@
 
         <br />
 
-        <fieldset><legend style="width: 65px"> Message </legend> 
+        <fieldset><legend> Message </legend> 
 			<table>
                 <tr>
 					<td>
@@ -90,9 +90,6 @@
 </table>
   <!-- Form Ends-->
  
-
-
-
     <fieldset><legend> Our Shop </legend>
     <div id="googleMap"></div>
     <script runat="server" src="~/scripts/map.js"></script>

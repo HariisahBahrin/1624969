@@ -12,12 +12,16 @@
     border-bottom: 10px dotted black;
      }
 
-#bannerimg{
-    float:initial;
-   width: 1024px;
+#bannerimg {
+    float: initial;
+
+
+}
+#banner_index{
+    width: 1024px;
     height: 576px;
 }
-
+}
 
 #logoimg{
     height: 200px;
