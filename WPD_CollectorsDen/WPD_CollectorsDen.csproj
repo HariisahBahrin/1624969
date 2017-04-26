@@ -156,6 +156,7 @@
   <ItemGroup>
     <Content Include="about_us.aspx" />
     <Content Include="contact.aspx" />
+    <Content Include="images\banner\banner_01.jpg" />
     <Content Include="images\banner\line.png" />
     <Content Include="images\icons\fb-icon.png" />
     <Content Include="images\icons\FG001.jpg" />
@@ -180,10 +181,10 @@
     <Content Include="images\products\FG008.jpg" />
     <Content Include="images\products\FG009.jpg" />
     <Content Include="images\products\FG010.jpg" />
-    <Content Include="products\female_figures.aspx" />
+    <Content Include="products\gundam.aspx" />
     <Content Include="fg010.aspx" />
     <Content Include="login.aspx" />
-    <Content Include="products\male_figures.aspx" />
+    <Content Include="products\scifi.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -238,12 +239,12 @@
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="products\female_figures.aspx.cs">
-      <DependentUpon>female_figures.aspx</DependentUpon>
+    <Compile Include="products\gundam.aspx.cs">
+      <DependentUpon>gundam.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="products\female_figures.aspx.designer.cs">
-      <DependentUpon>female_figures.aspx</DependentUpon>
+    <Compile Include="products\gundam.aspx.designer.cs">
+      <DependentUpon>gundam.aspx</DependentUpon>
     </Compile>
     <Compile Include="fg010.aspx.cs">
       <DependentUpon>fg010.aspx</DependentUpon>
@@ -262,12 +263,12 @@
     <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="products\male_figures.aspx.cs">
-      <DependentUpon>male_figures.aspx</DependentUpon>
+    <Compile Include="products\scifi.aspx.cs">
+      <DependentUpon>scifi.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="products\male_figures.aspx.designer.cs">
-      <DependentUpon>male_figures.aspx</DependentUpon>
+    <Compile Include="products\scifi.aspx.designer.cs">
+      <DependentUpon>scifi.aspx</DependentUpon>
     </Compile>
     <Compile Include="products\ProductDetails.aspx.cs">
       <DependentUpon>ProductDetails.aspx</DependentUpon>

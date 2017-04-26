@@ -191,6 +191,7 @@ a:hover{
 }
 
 .index-auto-style1 {
+    text-align: center;
     width: 286px;
 }
 
@@ -206,6 +207,26 @@ a:hover{
 .auto-style3 {
     text-align: center;
             width: 320px;
+        }
+
+.auto-style4 {
+            width: 155px;
+        }
+        .auto-style5 {
+            width: 155px;
+            height: 154px;
+        }
+        .auto-style6 {
+            width: 155px;
+            height: 155px;
+        }
+        .auto-style7 {
+            width: 155px;
+            height: 150px;
+        }
+        .auto-style8 {
+            width: 155px;
+            height: 116px;
         }
 
 .helplinksbox {
@@ -235,4 +256,9 @@ a:hover{
     width:50px;
     height:50px;
 
+}
+
+auto-style9 {
+    width: 1024px;
+    height: 576px;
 }

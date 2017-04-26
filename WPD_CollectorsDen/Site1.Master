@@ -35,8 +35,8 @@
 
 <div>
 <ul id="category">
-	<li><a runat="server" href="~/products/female_figures.aspx"> Female Figures </a> </li>
-	<li><a runat="server" href="~/products/male_figures.aspx"> Male Figures </a></li>
+	<li><a runat="server" href="~/products/female_figures.aspx"> Gundam </a> </li>
+	<li><a runat="server" href="~/products/male_figures.aspx"> SciFi Merchandise </a></li>
 </ul>
 </div>
 <!--Header Ends-->
