@@ -14,9 +14,10 @@
 
 #bannerimg{
     float:initial;
-    height: 160px;
-    width: 653px;
+   width: 1024px;
+    height: 576px;
 }
+
 
 #logoimg{
     height: 200px;
@@ -191,7 +192,7 @@ a:hover{
 }
 
 .index-auto-style1 {
-    text-align: center;
+    
     width: 286px;
 }
 
@@ -230,11 +231,11 @@ a:hover{
         }
 
 .helplinksbox {
-    text-align: center;
+   
             width: 230px;
         }
 .categorylinksbox{
-    text-align: center;
+    
             width: 150px;
         }
 
@@ -258,7 +259,13 @@ a:hover{
 
 }
 
-auto-style9 {
-    width: 1024px;
-    height: 576px;
-}
+ .auto-style9 {
+            width: 155px;
+            height: 43px;
+        }
+        .auto-style10 {
+            text-align: center;
+            width: 320px;
+            height: 43px;
+        }
+

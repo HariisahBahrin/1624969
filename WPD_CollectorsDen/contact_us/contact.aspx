@@ -95,7 +95,7 @@
 
     <fieldset><legend> Our Shop </legend>
     <div id="googleMap"></div>
-    <script src="scripts/map.js"></script>
+    <script runat="server" src="~/scripts/map.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDATOmmUjmmDpXmZ61AT_Qr0mUYYflKENk&callback=myMap"></script>
         </fieldset>
     

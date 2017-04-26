@@ -4,7 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div id="indexpage">
     <div id="top_page">
-        <img alt="banner_barbatos" class="auto-style9" src="images/banner/banner_01.jpg" />&nbsp;</div>
+        <img alt="banner_barbatos" id="bannerimg" src="images/banner/banner_01.jpg" />&nbsp;</div>
 
         <br />
 
@@ -12,7 +12,7 @@
   
    
   <tr>
-    <td class="index-auto-style1"> 
+    <td class="auto-style1"> 
 		<div class="product_imgicon">
             <img alt="GundamUnicorn" class="auto-style5" runat="server" src="~/images/icons/FG001.jpg" /></div>
 		<ul class="product_ul">
@@ -41,7 +41,7 @@
 	    </td>
   </tr>
   <tr>
-    <td class="index-auto-style1"> 
+    <td class="auto-style1"> 
 		<div class="product_imgicon">
             <img alt="optimusprimemega" class="auto-style6" runat="server" src="~/images/icons/FG004.jpg" /></div>
 		<ul class="product_ul">
@@ -72,7 +72,7 @@
 	    </td>
   </tr>
             <tr>
-    <td class="index-auto-style1"> <!--New Arrival-->
+    <td class="auto-style1"> <!--New Arrival-->
 		<div class="product_imgicon">
             <img alt="at-at" class="auto-style8" runat="server" src="~/images/icons/FG007.jpg" /></div>
 		<ul class="product_ul">

@@ -4,12 +4,12 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <h1> Male Figures</h1>
+    <h1><%:Title%></h1>
       
     <table style="width:100%">
         <tr>
   
-  <td class="index-auto-style1"> 
+  <td class="auto-style1"> 
 		<div class="product_imgicon">
             <img alt="optimusprimemega" class="auto-style6" runat="server" src="~/images/icons/FG004.jpg" /></div>
 		<ul class="product_ul">
@@ -41,7 +41,7 @@
         </tr>
  
             <tr>
-    <td class="index-auto-style1"> <!--New Arrival-->
+    <td class="auto-style1"> <!--New Arrival-->
 		<div class="product_imgicon">
             <img alt="at-at" class="auto-style8" runat="server" src="~/images/icons/FG007.jpg" /></div>
 		<ul class="product_ul">
@@ -70,9 +70,9 @@
 		</ul>
 	    </td>
                 <tr>
-                <td class="index-auto-style1"> 
+         <td class="auto-style1"> 
 		<div class="product_imgicon">
-            <img alt="head_ironman" class="auto-style6" runat="server" src="~images/icons/FG010.jpg" /></div>
+            <img alt="head_ironman" class="auto-style6" runat="server" src="~/images/icons/FG010.jpg" /></div>
 		<ul class="product_ul">
 		  <li class="product_name"><a href="default.aspx">Marvel Legends Iron Man Electronic Helmet</a></li>
 			<li class="in_stock">IN-STOCK</li>

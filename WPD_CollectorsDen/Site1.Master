@@ -10,11 +10,12 @@
     
     <link rel="stylesheet" type="text/css" href="~/style.css"/>
     
+   
 </head>
 <body>
     <form id="form1" runat="server">
     <div id="page">
-<div id="login"><a runat="server" href="~/login.aspx"> Login </a> | <a runat="server" href="~/register.aspx"> Register </a>  </div>    
+<div id="login"><a runat="server" href="~/login/login.aspx"> Login </a> | <a runat="server" href="~/login/register.aspx"> Register </a>  </div>    
 
 <div id="logo"> <!--Header--> <!--Website Logo--> 
 <a href="~/default.aspx" runat="server"><img id="logoimg" runat="server" src="~/images/logo/logo.png" alt="logo" /> </a>
@@ -28,15 +29,15 @@
 <ul id= "nav"> 
 	<li><a runat="server" href="~/default.aspx"> Home </a></li>
 	<li><a runat="server" href="~/products/products.aspx"> Products </a> </li>
-	<li><a runat="server" href="~/about_us.aspx"> About Us</a></li>
-	<li><a runat="server" href="~/contact.aspx"> Contact Us </a></li>
+	<li><a runat="server" href="~/about_us/about_us.aspx"> About Us</a></li>
+	<li><a runat="server" href="~/contact_us/contact.aspx"> Contact Us </a></li>
 </ul>
 </div>
 
 <div>
 <ul id="category">
-	<li><a runat="server" href="~/products/female_figures.aspx"> Gundam </a> </li>
-	<li><a runat="server" href="~/products/male_figures.aspx"> SciFi Merchandise </a></li>
+	<li><a runat="server" href="~/products/gundam.aspx"> Gundam </a> </li>
+	<li><a runat="server" href="~/products/scifi.aspx"> SciFi Merchandise </a></li>
 </ul>
 </div>
 <!--Header Ends-->
@@ -49,29 +50,29 @@
 <div id="footer"> <!--Footer-->
     <table style="width:100%">
   <tr>
-    <th class="auto-style4"><h3 style="width: 171px"> Category </h3></th>
-    <th class="auto-style3"><h3 style="width: 174px"> Help Center </h3></th> 
-    <th class="auto-style5"><h3 style="margin-left: 4px; width: 123px;"> Social Media </h3></th>
+    <th class="auto-style9"><h3> Category </h3></th>
+    <th class="auto-style10"><h3> Help Center </h3></th> 
+    <th class="auto-style9"><h3> Social Media </h3></th>
   </tr>
   <tr>
     <td class="categorylinksbox"> <!--Category Links-->
         <ul>
-	    <li><a runat="server" href="~/products/female_figures.aspx"> Female Figures </a> </li>
-	    <li><a runat="server" href="~/products/male_figures.aspx"> Male Figures </a></li>
+	    <li><a runat="server" href="~/products/gundam.aspx"> Gundam </a> </li>
+	    <li><a runat="server" href="~/products/scifi.aspx"> SciFi Merchandise </a></li>
         <li><a runat="server" href="~/products/products.aspx"> All Products </a></li>
         </ul>
     </td> 
     <td class="helplinksbox"> <!--Help Links-->
         <ul>
-	    <li><a runat="server" href="~/about_us.aspx"> About Us </a> </li>
-	    <li><a runat="server" href="~/contact.aspx"> Contact Us </a></li>
-        <li><a runat="server" href="~/about_us.aspx"> FAQ </a></li>
-        <li><a runat="server" href="~/login.aspx"> Login </a></li>
+	    <li><a runat="server" href="~/about_us/about_us.aspx"> About Us </a> </li>
+	    <li><a runat="server" href="~/contact_us/contact.aspx"> Contact Us </a></li>
+        <li><a runat="server" href="~/about_us/about_us.aspx"> FAQ </a></li>
+        <li><a runat="server" href="~/login/login.aspx"> Login </a></li>
         </ul>
     </td> 
       <td class="socialmedialinksbox"> <!--Social Media Links-->
-        <a runat="server" href="~/default.aspx"><img runat="server" src="~/images/icons/fb-icon.png" alt="fblogo" width="30" height="30"/> </a>
-	    <a runat="server" href="~/default.aspx"><img runat="server" src="~/images/icons/twitter-icon.png" alt="fblogo" width="30" height="30"/> </a>
+        <a runat="server" href="~/default.aspx"><img  runat="server" src="~/images/icons/fb-icon.png" alt="fblogo" width="30" height="30"/> </a>
+	    <a runat="server" href="~/default.aspx"><img  runat="server" src="~/images/icons/twitter-icon.png" alt="twitterlogo" width="30" height="30"/> </a>
                 
     </td> 
     

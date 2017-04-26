@@ -1,8 +1,5 @@
 ﻿<%@ Page Title="Gundam" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="gundam.aspx.cs" Inherits="WPD_CollectorsDen.female_figures" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-     <h1><%: Title %></h1>
-
-
 </asp:Content>
 <asp:Content ID="BodyContent" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
