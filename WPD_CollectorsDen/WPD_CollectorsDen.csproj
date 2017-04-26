@@ -157,9 +157,6 @@
     <Content Include="about_us.aspx" />
     <Content Include="contact.aspx" />
     <Content Include="images\banner\line.png" />
-    <Content Include="images\banner\new.jpg" />
-    <Content Include="images\banner\new02.jpg" />
-    <Content Include="images\banner\new03.jpg" />
     <Content Include="images\icons\fb-icon.png" />
     <Content Include="images\icons\FG001.jpg" />
     <Content Include="images\icons\FG002.jpg" />
@@ -171,11 +168,6 @@
     <Content Include="images\icons\FG008.jpg" />
     <Content Include="images\icons\FG009.jpg" />
     <Content Include="images\icons\FG010.jpg" />
-    <Content Include="images\icons\FG011.jpg" />
-    <Content Include="images\icons\FG012.jpg" />
-    <Content Include="images\icons\FG013.jpg" />
-    <Content Include="images\icons\FG014.jpg" />
-    <Content Include="images\icons\FG015.jpg" />
     <Content Include="images\icons\twitter-icon.png" />
     <Content Include="images\logo\logo.png" />
     <Content Include="images\products\FG001.jpg" />
@@ -188,11 +180,6 @@
     <Content Include="images\products\FG008.jpg" />
     <Content Include="images\products\FG009.jpg" />
     <Content Include="images\products\FG010.jpg" />
-    <Content Include="images\products\FG011.jpg" />
-    <Content Include="images\products\FG012.jpg" />
-    <Content Include="images\products\FG013.jpg" />
-    <Content Include="images\products\FG014.jpg" />
-    <Content Include="images\products\FG015.jpg" />
     <Content Include="products\female_figures.aspx" />
     <Content Include="fg010.aspx" />
     <Content Include="login.aspx" />

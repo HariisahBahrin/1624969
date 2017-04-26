@@ -18,24 +18,24 @@ namespace WPD_CollectorsDen
         protected void btnSendEmail_Click(object sender, EventArgs e)
 
         {   //Following codes are provided and freely to used by www.aspsnippets.com
-            MailMessage msg = new MailMessage(txtEmail.Text, "project8clothes@gmail.com");
+            try
+            {
+                MailMessage msg = new MailMessage();
+            msg.To.Add("project8clothes@gmail.com");
+            msg.From = new MailAddress(txtEmail.Text);
             msg.Subject = txtSubject.Text;
-            msg.Body = "Name: " + txtFirstName.Text + txtLastName.Text + "<br /><br />Email: " + txtEmail.Text + "<br />" + txtMsg.Text;
+            msg.Body = "Name: " + txtFirstName.Text +" "+ txtLastName.Text + "<br /><br />Email: " + txtEmail.Text + "<br />" + txtMsg.Text;
 
             msg.IsBodyHtml = true;
             SmtpClient smclient = new SmtpClient();
             smclient.Host = "smtp.gmail.com";
             smclient.EnableSsl = true;
-            System.Net.NetworkCredential credentials = new System.Net.NetworkCredential();
-            credentials.UserName = "project8clothes@gmail.com";
-            credentials.Password = "dbs@12345";
-            smclient.UseDefaultCredentials = true;
+            System.Net.NetworkCredential credentials = new System.Net.NetworkCredential("project8clothes@gmail.com", "dbs@12345");
+            smclient.UseDefaultCredentials = false;
             smclient.Credentials = credentials;
             smclient.Port = 587;
             smclient.Send(msg);
-            try
-            {
-                smclient.Send(msg);
+            
                 litResult.Text =
                     "<p>Your Message has been sent!</p>";
             }

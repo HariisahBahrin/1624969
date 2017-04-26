@@ -165,26 +165,25 @@ a:hover{
     color: red;
 }
 
-.pre_order{
-    color: orangered;
-    height: 26px;
-    width: 254px;
-}
 
 .in_stock{
+    text-align: center;
     color: limegreen;
     width: 253px;
 }
 
 .sold_out{
+    text-align: center;
     color: dimgrey;
     width: 253px;
 }
 
 .product_name {
+    text-align: center;
     width: 250px;
 }
 .product_price {
+    text-align: center;
     width: 250px;
 }
 .product_day {
@@ -196,20 +195,25 @@ a:hover{
 }
 
 .auto-style1{
-            width: 328px;
+    text-align: center;
+            width: 320px;
         }
 .auto-style2 {
-            width: 331px;
+    text-align: center;
+            width: 320px;
         }
 
 .auto-style3 {
+    text-align: center;
             width: 320px;
         }
 
 .helplinksbox {
+    text-align: center;
             width: 230px;
         }
 .categorylinksbox{
+    text-align: center;
             width: 150px;
         }
 
@@ -217,10 +221,18 @@ a:hover{
             width: 320px;
         }
 
-loginbox{
+#loginbox{
+    display: block;
+    
     float: left;
     margin:50px;
     padding: 300px;
     width:300px;
     height:300px;
+}
+
+#product_imgicon{
+    width:50px;
+    height:50px;
+
 }
