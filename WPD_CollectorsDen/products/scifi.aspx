@@ -1,4 +1,4 @@
-﻿<%@ Page Title="SciFi Merchandise" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="scifi.aspx.cs" Inherits="WPD_CollectorsDen.male_figures" %>
+﻿<%@ Page Title="SciFi Merchandise" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="scifi.aspx.cs" Inherits="WPD_CollectorsDen.scifi" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
 </asp:Content>
@@ -69,7 +69,8 @@
 		    <li class="product_price"> BND$122.00 </li>
 		</ul>
 	    </td>
-                <tr>
+           </tr>
+           <tr>
          <td class="auto-style1"> 
 		<div class="product_imgicon">
             <img alt="head_ironman" class="auto-style6" runat="server" src="~/images/icons/FG010.jpg" /></div>
@@ -79,8 +80,9 @@
 		    <li class="product_price"> BND$123.00 </li>
 		</ul>
 	    </td>
-                    </tr>
-  </tr>
+           </tr>
+    
+  
            
 </table>
 </asp:Content>

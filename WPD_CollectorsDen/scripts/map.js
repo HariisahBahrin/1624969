@@ -1,4 +1,5 @@
-﻿function myMap() {
+﻿
+    function myMap() {
     var mapProp = {
     center: new google.maps.LatLng(4.885728, 114.931669),
     zoom: 20,

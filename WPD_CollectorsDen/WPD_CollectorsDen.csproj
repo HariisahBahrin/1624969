@@ -199,8 +199,6 @@
     <Content Include="scripts\map.js" />
     <Content Include="Site1.Master" />
     <None Include="Properties\PublishProfiles\1624969.pubxml" />
-    <Content Include="scripts\jquery-3.1.1.slim.min.map" />
-    <Content Include="scripts\jquery-3.1.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
