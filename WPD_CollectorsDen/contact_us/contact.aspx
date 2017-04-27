@@ -62,6 +62,8 @@
 					</td>
 					<td>
 						<asp:TextBox ID="txtSubject" runat="server" size="60"></asp:TextBox>
+                        <asp:RequiredFieldValidator ID="SubjectValidation" runat="server" ControlToValidate="txtSubject" ForeColor="Red" ErrorMessage="Please enter the subject of the message."></asp:RequiredFieldValidator>
+					
 					</td>
 				</tr>
 				<tr>

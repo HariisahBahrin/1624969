@@ -17,21 +17,25 @@ namespace WPD_CollectorsDen
 
         protected void btnSendEmail_Click(object sender, EventArgs e)
 
-        {   //Following codes are provided and freely to used by www.aspsnippets.com
+        {   //Following codes are provided by www.aspsnippets.com, it has been modified.
             try
             {
                 MailMessage msg = new MailMessage();
             msg.To.Add("project8clothes@gmail.com");
             msg.From = new MailAddress(txtEmail.Text);
             msg.Subject = txtSubject.Text;
-            msg.Body = "First Name: " + txtFirstName.Text + "<br />Last Name: " + txtLastName.Text + "<br />Email: " + txtEmail.Text + "< br />< br /> Subject:"+ txtSubject.Text + "<br />" + txtMsg.Text;
+            msg.Body = "First Name: " + txtFirstName.Text + 
+                    "<br/>Last Name: " + txtLastName.Text + 
+                    "<br/>Email: " + txtEmail.Text + 
+                    "<br/>Subject:" + txtSubject.Text +
+                    "<br/> Message:"+ txtMsg.Text;
 
             msg.IsBodyHtml = true;
             SmtpClient smclient = new SmtpClient();
             smclient.Host = "smtp.gmail.com";
             smclient.EnableSsl = true;
             System.Net.NetworkCredential credentials = new System.Net.NetworkCredential("project8clothes@gmail.com", "dbs@12345");
-            smclient.UseDefaultCredentials = false;
+            smclient.UseDefaultCredentials = true;
             smclient.Credentials = credentials;
             smclient.Port = 587;
             smclient.Send(msg);
