@@ -10,6 +10,6 @@
 namespace WPD_CollectorsDen {
     
     
-    public partial class gundam {
+    public partial class products {
     }
 }

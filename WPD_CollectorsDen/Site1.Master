@@ -19,7 +19,7 @@
 
 <div id="logo"> <!--Header--> <!--Website Logo--> 
 <a href="~/default.aspx" runat="server"><img id="logoimg" runat="server" src="~/images/logo/logo.png" alt="logo" /> </a>
-    <img id="bannerimg" runat="server" src="~/images/banner/line.png"/>&nbsp;
+    &nbsp;
 </div>
 
         <br />
@@ -50,9 +50,9 @@
 <div id="footer"> <!--Footer-->
     <table style="width:100%">
   <tr>
-    <th class="auto-style9"><h3> Category </h3></th>
-    <th class="auto-style10"><h3> Help Center </h3></th> 
-    <th class="auto-style9"><h3> Social Media </h3></th>
+    <th class="auto-style9"> Category </th>
+    <th class="auto-style10"> Help Center </th> 
+    <th class="auto-style9"> Social Media </th>
   </tr>
   <tr>
     <td class="categorylinksbox"> <!--Category Links-->

@@ -7,18 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WPD_CollectorsDen {
-    
-    
-    public partial class products {
-        
-        /// <summary>
-        /// db_1624969_collectorsden_co5027 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource db_1624969_collectorsden_co5027;
+namespace WPD_CollectorsDen
+{
+    public partial class products : System.Web.UI.Page
+    {
     }
 }
