@@ -103,13 +103,13 @@
   </tr>
         <tr>
     <td class="index-auto-style1"> <!--New Arrival-->
-		<a href="products.aspx">>> See More "Products"</a>
+		<a runat="server" href="~/content_product/products.aspx">>> See More "Products"</a>
 	    </td>
     <td class="auto-style2"><!--Female Figure-->
-		<a href="gundam.aspx">>> See More "Gundam"</a>
+		<a runat="server" href="~/content_product/gundam.aspx">>> See More "Gundam"</a>
 	    </td> 
     <td class="auto-style3"><!--Male Figure-->
-		<a href="scifi.aspx">>> See More "SciFi Merchandise"</a>
+		<a runat="server" href="~/content_product/scifi.aspx">>> See More "SciFi Merchandise"</a>
 	    </td>
   </tr>
 </table>
