@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace WPD_CollectorsDen
+namespace WPD_CollectorsDen.content_product
 {
     public partial class gundam: System.Web.UI.Page
     {

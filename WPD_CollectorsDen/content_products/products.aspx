@@ -1,15 +1,49 @@
-﻿<%@ Page Title="SciFi Merchandise" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="scifi.aspx.cs" Inherits="WPD_CollectorsDen.scifi" %>
+﻿<%@ Page Title="Products" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="products.aspx.cs" Inherits="WPD_CollectorsDen.content_products.products" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+            
+    <h1> All Products </h1>
+    <!--Add Search Bar-->
 
-    <h1><%:Title%></h1>
-      
-    <table style="width:100%">
-        <tr>
+    <!--Price in Ascending order or descending order-->
+
+    <!--<asp:SqlDataSource ID="db_1624969_collectorsden_co5027" runat="server" ConnectionString="<%$ ConnectionStrings:CollectorsDenConnection %>" SelectCommand="SELECT [Product_Name], [Price], [StatusID] FROM [Products_tbl]"></asp:SqlDataSource>-->
+     <table style="width:100%">
   
-  <td class="auto-style1"> 
+   
+  <tr>
+    <td class="index-auto-style1"> 
+		<div class="product_imgicon">
+            <img alt="GundamUnicorn" class="auto-style5" runat="server" src="~/images/icons/FG001.jpg" /></div>
+		<ul class="product_ul">
+			 <li class="product_name"><a href="default.aspx">Perfect Grade Unicorn Gundam Luminus Clear 7-11 Clear Exclusive</a></li>
+			<li class="in_stock">IN-STOCK</li>
+		    <li class="product_price"> BND$150.00 </li>
+		</ul>
+	    </td>
+    <td class="auto-style2"> 
+        <div class="product_imgicon">
+            <img alt="PGBanshee" class="auto-style6" runat="server" src="~/images/icons/FG002.jpg" /></div>
+		<ul class="product_ul">
+		  <li class="product_name"><a href="default.aspx">Perfect Grade Unicorn Gundam 02 Banshee Norn</a></li>
+		<li class="in_stock">IN-STOCK</li>
+            <li class="product_price">BND$89.00</li>
+		</ul>
+	    </td> 
+    <td class="auto-style3"> 
+		<div class="product_imgicon">
+            <img alt="barbatosfullmecha" class="auto-style7" runat="server" src="~/images/icons/FG003.jpg" /></div>
+		<ul class="product_ul">
+		  <li class="product_name"><a href="default.aspx">Full Mechanics Gundam Barbatos Lupus Rex Plastic Model from Mobile Suit Gundam Iron-Blooded Orphans</a></li>
+			<li class="in_stock">IN-STOCK</li>
+		    <li class="product_price"> BND$180.00 </li>
+		</ul>
+	    </td>
+  </tr>
+  <tr>
+    <td class="index-auto-style1"> 
 		<div class="product_imgicon">
             <img alt="optimusprimemega" class="auto-style6" runat="server" src="~/images/icons/FG004.jpg" /></div>
 		<ul class="product_ul">
@@ -23,7 +57,7 @@
             <img alt="striker_eureka" class="auto-style6" runat="server" src="~/images/icons/FG005.jpg" /></div>
 		<ul class="product_ul">
 		  <li class="product_name"><a href="default.aspx">Pacific Rim - 7 Figure Essential Jaegers Series 01 - Striker Eureka</a></li>
-			<li class="in_stock">IN-STOCK</li>
+			<li class="pre_order">PRE-ORDER AVAILABLE</li>
 		  <li class="product_day">Release date: Sep-2017</li>
 
 		  <li class="product_price">BND$80.00</li>
@@ -38,10 +72,9 @@
 		    <li class="product_price"> BND$250.00 </li>
 		</ul>
 	    </td>
-        </tr>
- 
+  </tr>
             <tr>
-    <td class="auto-style1"> <!--New Arrival-->
+    <td class="index-auto-style1"> <!--New Arrival-->
 		<div class="product_imgicon">
             <img alt="at-at" class="auto-style8" runat="server" src="~/images/icons/FG007.jpg" /></div>
 		<ul class="product_ul">
@@ -55,12 +88,12 @@
             <img alt="wing_starfighter" class="auto-style8" runat="server" src="~/images/icons/FG008.jpg" /></div>
 		<ul class="product_ul">
 		  <li class="product_name"><a href="default.aspx">Star Wars Vehicle Model #002 - X-Wing Starfighter</a></li>
-			<li class="in_stock">IN-STOCK</li>
+			<li class="pre_order">PRE-ORDER AVAILABLE</li>
 		  <li class="product_day">Release date: Jun-2017</li>
              <li class="product_price">BND$80.00</li>
 		</ul>
 	    </td> 
-    <td class="auto-style3">
+    <td class="auto-style3"><!--Male Figure-->
 		<div class="product_imgicon">
             <img alt="scorpion_pistol" class="auto-style8" runat="server" src="~/images/icons/FG009.jpg" /></div>
 		<ul class="product_ul">
@@ -69,20 +102,8 @@
 		    <li class="product_price"> BND$122.00 </li>
 		</ul>
 	    </td>
-           </tr>
-           <tr>
-         <td class="auto-style1"> 
-		<div class="product_imgicon">
-            <img alt="head_ironman" class="auto-style6" runat="server" src="~/images/icons/FG010.jpg" /></div>
-		<ul class="product_ul">
-		  <li class="product_name"><a href="default.aspx">Marvel Legends Iron Man Electronic Helmet</a></li>
-			<li class="in_stock">IN-STOCK</li>
-		    <li class="product_price"> BND$123.00 </li>
-		</ul>
-	    </td>
-           </tr>
-    
-  
-           
-</table>
+  </tr>
+
+     </table>
+   
 </asp:Content>

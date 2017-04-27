@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WPD_CollectorsDen {
+namespace WPD_CollectorsDen.content_product {
     
     
     public partial class scifi {

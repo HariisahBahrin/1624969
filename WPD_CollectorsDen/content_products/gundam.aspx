@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Gundam" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="gundam.aspx.cs" Inherits="WPD_CollectorsDen.products" %>
+﻿<%@ Page Title="Gundam" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="gundam.aspx.cs" Inherits="WPD_CollectorsDen.content_product.products" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="BodyContent" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">

@@ -181,15 +181,15 @@
     <Content Include="images\products\FG008.jpg" />
     <Content Include="images\products\FG009.jpg" />
     <Content Include="images\products\FG010.jpg" />
-    <Content Include="products\gundam.aspx" />
+    <Content Include="content_products\gundam.aspx" />
     <Content Include="login\login.aspx" />
-    <Content Include="products\scifi.aspx" />
+    <Content Include="content_products\scifi.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="products\ProductDetails.aspx" />
-    <Content Include="products\products.aspx" />
+    <Content Include="content_products\ProductDetails.aspx" />
+    <Content Include="content_products\products.aspx" />
     <Content Include="login\register.aspx" />
     <None Include="scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="scripts\jquery-3.1.1.js" />
@@ -236,11 +236,11 @@
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="products\gundam.aspx.cs">
+    <Compile Include="content_products\gundam.aspx.cs">
       <DependentUpon>gundam.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="products\gundam.aspx.designer.cs">
+    <Compile Include="content_products\gundam.aspx.designer.cs">
       <DependentUpon>gundam.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
@@ -253,24 +253,25 @@
     <Compile Include="login\login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="products\scifi.aspx.cs">
+    <Compile Include="content_products\scifi.aspx.cs">
       <DependentUpon>scifi.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="products\scifi.aspx.designer.cs">
+    <Compile Include="content_products\scifi.aspx.designer.cs">
       <DependentUpon>scifi.aspx</DependentUpon>
     </Compile>
-    <Compile Include="products\ProductDetails.aspx.cs">
+    <Compile Include="content_products\ProductDetails.aspx.cs">
       <DependentUpon>ProductDetails.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="products\ProductDetails.aspx.designer.cs">
+    <Compile Include="content_products\ProductDetails.aspx.designer.cs">
       <DependentUpon>ProductDetails.aspx</DependentUpon>
     </Compile>
-    <Compile Include="products\products.aspx.cs">
+    <Compile Include="content_products\products.aspx.cs">
       <DependentUpon>products.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="products\products.aspx.designer.cs">
+    <Compile Include="content_products\products.aspx.designer.cs">
       <DependentUpon>products.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />

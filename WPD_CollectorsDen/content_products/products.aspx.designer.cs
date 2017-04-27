@@ -8,7 +8,7 @@
 //------------------------------------------------------------------------------
 
 
-namespace WPD_CollectorsDen
+namespace WPD_CollectorsDen.content_product
 {
     public partial class products : System.Web.UI.Page
     {

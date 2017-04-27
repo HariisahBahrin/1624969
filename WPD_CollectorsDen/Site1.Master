@@ -19,7 +19,7 @@
 
 <div id="logo"> <!--Header--> <!--Website Logo--> 
 <a href="~/default.aspx" runat="server"><img id="logoimg" runat="server" src="~/images/logo/logo.png" alt="logo" /> </a>
-     <img src="images/banner/line.png" style="height: 160px; width: 653px" />&nbsp;
+     <img runat="server" src="~/images/banner/line.png" style="height: 160px; width: 653px" />&nbsp;
 </div>
 
         <br />
@@ -28,7 +28,7 @@
 <div><!--Navigation-->
 <ul id= "nav"> 
 	<li><a runat="server" href="~/default.aspx"> Home </a></li>
-	<li><a runat="server" href="~/products/products.aspx"> Products </a> </li>
+	<li><a runat="server" href="~/content_products/products.aspx"> Products </a> </li>
 	<li><a runat="server" href="~/about_us/about_us.aspx"> About Us</a></li>
 	<li><a runat="server" href="~/contact_us/contact.aspx"> Contact Us </a></li>
 </ul>
@@ -36,8 +36,8 @@
 
 <div>
 <ul id="category">
-	<li><a runat="server" href="~/products/gundam.aspx"> Gundam </a> </li>
-	<li><a runat="server" href="~/products/scifi.aspx"> SciFi Merchandise </a></li>
+	<li><a runat="server" href="~/content_products/gundam.aspx"> Gundam </a> </li>
+	<li><a runat="server" href="~/content_products/scifi.aspx"> SciFi Merchandise </a></li>
 </ul>
 </div>
 <!--Header Ends-->
@@ -57,9 +57,9 @@
   <tr>
     <td class="categorylinksbox"> <!--Category Links-->
         <ul>
-	    <li><a runat="server" href="~/products/gundam.aspx"> Gundam </a> </li>
-	    <li><a runat="server" href="~/products/scifi.aspx"> SciFi Merchandise </a></li>
-        <li><a runat="server" href="~/products/products.aspx"> All Products </a></li>
+	    <li><a runat="server" href="~/content_products/gundam.aspx"> Gundam </a> </li>
+	    <li><a runat="server" href="~/content_products/scifi.aspx"> SciFi Merchandise </a></li>
+        <li><a runat="server" href="~/content_products/products.aspx"> All Products </a></li>
         </ul>
     </td> 
     <td class="helplinksbox"> <!--Help Links-->

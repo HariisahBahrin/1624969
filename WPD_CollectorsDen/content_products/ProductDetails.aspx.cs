@@ -11,7 +11,7 @@ using System.Text;
 using System.Web.ModelBinding;
 using Microsoft.AspNet.Identity.EntityFramework;
 
-namespace WPD_CollectorsDen.products
+namespace WPD_CollectorsDen.products.products
 {
     public partial class ProductDetails : System.Web.UI.Page
     {
