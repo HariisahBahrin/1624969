@@ -19,7 +19,7 @@
 
 <div id="logo"> <!--Header--> <!--Website Logo--> 
 <a href="~/default.aspx" runat="server"><img id="logoimg" runat="server" src="~/images/logo/logo.png" alt="logo" /> </a>
-     <img runat="server" src="~/images/banner/line.png" style="height: 160px; width: 653px" />&nbsp;
+     <img runat="server" src="~/images/banner/line.png" alt="slogan" style="height: 160px; width: 653px" />&nbsp;
 </div>
 
         <br />
