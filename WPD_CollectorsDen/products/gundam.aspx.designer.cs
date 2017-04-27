@@ -7,9 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WPD_CollectorsDen {
+namespace WPD_CollectorsDen{
     
     
-    public partial class products {
+    public partial class gundam {
     }
 }
