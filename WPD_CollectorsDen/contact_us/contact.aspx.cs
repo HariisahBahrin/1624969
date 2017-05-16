@@ -24,11 +24,7 @@ namespace WPD_CollectorsDen
             msg.To.Add("project8clothes@gmail.com");
             msg.From = new MailAddress(txtEmail.Text);
             msg.Subject = txtSubject.Text;
-            msg.Body = "First Name: " + txtFirstName.Text + 
-                    "<br/>Last Name: " + txtLastName.Text + 
-                    "<br/>Email: " + txtEmail.Text + 
-                    "<br/>Subject:" + txtSubject.Text +
-                    "<br/> Message:"+ txtMsg.Text;
+                msg.Body = "Name:" + txtFirstName.Text + txtLastName.Text + "<br/>Email:" + txtEmail.Text + "<br/>Message:" + txtMsg.Text;
 
             msg.IsBodyHtml = true;
             SmtpClient smclient = new SmtpClient();

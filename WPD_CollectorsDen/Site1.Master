@@ -15,7 +15,7 @@
 <body>
     <form id="form1" runat="server">
     <div id="page">
-<div id="login"><a runat="server" href="~/login/login.aspx"> Login </a> | <a runat="server" href="~/login/register.aspx"> Register </a>  </div>    
+<div id="login"><a runat="server" href="~/login/login.aspx"> Login </a> </div> 
 
 <div id="logo"> <!--Header--> <!--Website Logo--> 
 <a href="~/default.aspx" runat="server"><img id="logoimg" runat="server" src="~/images/logo/logo.png" alt="logo" /> </a>
@@ -88,6 +88,8 @@
         <a href="http://validator.w3.org/check?uri=referer">Validate HTML</a>
                     <a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
                     <a href="http://achecker.ca/checker/?uri=referer">Check WCAG</a>
+
+        <asp:Button ID="logout_btn" runat="server" Text="Log Out" OnClick="logout_btn_Click" />
 
     </form>
     <!--Footer Ends-->

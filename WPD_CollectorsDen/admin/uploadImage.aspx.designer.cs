@@ -7,18 +7,18 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WPD_CollectorsDen {
+namespace WPD_CollectorsDen.admin {
     
     
-    public partial class _default {
+    public partial class uploadImage {
         
         /// <summary>
-        /// rptrProductDetails control.
+        /// Button1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater rptrProductDetails;
+        protected global::System.Web.UI.WebControls.Button Button1;
     }
 }

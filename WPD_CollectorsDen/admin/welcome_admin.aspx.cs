@@ -6,16 +6,16 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace WPD_CollectorsDen
+namespace WPD_CollectorsDen.admin
 {
-    public partial class Site1 : System.Web.UI.MasterPage
+    public partial class welcome_admin : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
 
-        protected void logout_btn_Click(object sender, EventArgs e)
+        protected void logout_adminpage_Click(object sender, EventArgs e)
         {
             HttpContext.Current.GetOwinContext().Authentication.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
         }
