@@ -85,6 +85,15 @@ namespace WPD_CollectorsDen {
         protected global::System.Web.UI.WebControls.Literal LitLoginResult;
         
         /// <summary>
+        /// LitLogoutResult control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal LitLogoutResult;
+        
+        /// <summary>
         /// litLoginError control.
         /// </summary>
         /// <remarks>

@@ -5,8 +5,9 @@
     <h1> Welcome Admin</h1>
     <p> What would like to do today?</p>
     <ul>
+        <li><a href="admin_addproducts.aspx">Add New Product</a></li>
         <li><a href="edit_ProductDB.aspx">Edit Product Database</a> </li>
-        <li><a href="edit_ProductDB.aspx">Edit Users Database</a> </li>
+        
     </ul>
     <asp:Button ID="logout_adminpage" runat="server" Text="Log Out" OnClick="logout_adminpage_Click" />
 

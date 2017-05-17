@@ -4,6 +4,12 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div id="indexpage">
     <div id="top_page">
+
+        <asp:PlaceHolder ID="PlaceHolderLogout" runat="server">
+            <asp:Literal ID="LitLoginResult" runat="server"></asp:Literal>
+        <asp:Literal ID="LitLogoutResult" runat="server"></asp:Literal>
+        </asp:PlaceHolder>
+
         <img alt="banner_barbatos" id="banner_index" src="images/banner/banner_01.jpg" />&nbsp;</div>
 
         <br />

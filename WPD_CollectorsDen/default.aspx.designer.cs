@@ -11,5 +11,32 @@ namespace WPD_CollectorsDen {
     
     
     public partial class _default {
+        
+        /// <summary>
+        /// PlaceHolderLogout control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.PlaceHolder PlaceHolderLogout;
+        
+        /// <summary>
+        /// LitLoginResult control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal LitLoginResult;
+        
+        /// <summary>
+        /// LitLogoutResult control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal LitLogoutResult;
     }
 }

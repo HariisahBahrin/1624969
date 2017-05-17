@@ -7,72 +7,72 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WPD_CollectorsDen {
+namespace WPD_CollectorsDen.admin {
     
     
-    public partial class Site1 {
+    public partial class admin_addproducts {
         
         /// <summary>
-        /// head control.
+        /// LitProductAddedResult control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
+        protected global::System.Web.UI.WebControls.Literal LitProductAddedResult;
         
         /// <summary>
-        /// form1 control.
+        /// LitProductUpdateResult control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.Literal LitProductUpdateResult;
         
         /// <summary>
-        /// login_link control.
+        /// LitProductDeleteResult control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton login_link;
+        protected global::System.Web.UI.WebControls.Literal LitProductDeleteResult;
         
         /// <summary>
-        /// signout_link control.
+        /// GridView1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton signout_link;
+        protected global::System.Web.UI.WebControls.GridView GridView1;
         
         /// <summary>
-        /// logoimg control.
+        /// AdminAddProducts_DataSource control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlImage logoimg;
+        protected global::System.Web.UI.WebControls.SqlDataSource AdminAddProducts_DataSource;
         
         /// <summary>
-        /// ContentPlaceHolder1 control.
+        /// FormView1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
+        protected global::System.Web.UI.WebControls.FormView FormView1;
         
         /// <summary>
-        /// Admin_Link control.
+        /// return_btn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton Admin_Link;
+        protected global::System.Web.UI.WebControls.Button return_btn;
     }
 }

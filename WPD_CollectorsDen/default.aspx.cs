@@ -13,5 +13,14 @@ namespace WPD_CollectorsDen
         {
 
         }
+
+        protected void LogOut_click(object sender, EventArgs e)
+        {
+            var authenticationManager = HttpContext.Current.GetOwinContext().Authentication;
+            authenticationManager.SignOut();
+            Response.Redirect("~/default.aspx");
+            LitLogoutResult.Text = "You have successfully logged out";
+            
+        }
     }
 }

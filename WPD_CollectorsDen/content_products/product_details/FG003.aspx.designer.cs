@@ -7,10 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WPD_CollectorsDen.content_products.product_details {
+namespace WPD_CollectorsDen.content_products {
     
     
-    public partial class FG001 {
+    public partial class FG003 {
         
         /// <summary>
         /// place_order_link control.

@@ -7,18 +7,27 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WPD_CollectorsDen.admin {
+namespace WPD_CollectorsDen.content_products.product_details {
     
     
-    public partial class edit_users {
+    public partial class FG002 {
         
         /// <summary>
-        /// GridView1 control.
+        /// place_order_link control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GridView1;
+        protected global::System.Web.UI.WebControls.Button place_order_link;
+        
+        /// <summary>
+        /// LitPlaceOrder control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal LitPlaceOrder;
     }
 }

@@ -18,6 +18,7 @@ namespace WPD_CollectorsDen.admin
         protected void logout_adminpage_Click(object sender, EventArgs e)
         {
             HttpContext.Current.GetOwinContext().Authentication.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
+            Response.Redirect("~/default.aspx");
         }
     }
 }

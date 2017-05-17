@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WPD_CollectorsDen.content_product {
+namespace WPD_CollectorsDen.content_products {
     
     
     public partial class products {

@@ -13,6 +13,24 @@ namespace WPD_CollectorsDen.admin {
     public partial class edit_database {
         
         /// <summary>
+        /// LitProductUpdateResult control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal LitProductUpdateResult;
+        
+        /// <summary>
+        /// LitProductDeleteResult control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal LitProductDeleteResult;
+        
+        /// <summary>
         /// GridView1 control.
         /// </summary>
         /// <remarks>
@@ -22,12 +40,21 @@ namespace WPD_CollectorsDen.admin {
         protected global::System.Web.UI.WebControls.GridView GridView1;
         
         /// <summary>
-        /// cd_products control.
+        /// EditProduct_DataSource control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource cd_products;
+        protected global::System.Web.UI.WebControls.SqlDataSource EditProduct_DataSource;
+        
+        /// <summary>
+        /// return_btn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button return_btn;
     }
 }

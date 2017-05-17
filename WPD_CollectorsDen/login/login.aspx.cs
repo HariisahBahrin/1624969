@@ -23,15 +23,24 @@ namespace WPD_CollectorsDen
         //The following codes for "btnlogin_Click" and "LogUserIn" are from Andrew's Tutorial - Authentication with ASP.NET Identity (Can be found here: http://tutorials.tinyappco.com/ASPNET/Identity)
         protected void btnlogin_Click(object sender, EventArgs e)
         {
-            Page.Validate("one"); //Referred from Jakrahal's post on https://www.sitepoint.com/community/t/multiple-forms-on-one-aspx-page/4101
+            Page.Validate("login_btn_valid"); //Referred from Jakrahal's post on https://www.sitepoint.com/community/t/multiple-forms-on-one-aspx-page/4101
             var CollectorsDenContext = new IdentityDbContext("CollectorsDenConnection");
             var userStore = new UserStore<IdentityUser>(CollectorsDenContext);
             var userManager = new UserManager<IdentityUser>(userStore);
             var user = userManager.Find(txtloginusername.Text, txtloginpassword.Text);
             if (user != null)
             {
-                LitLoginResult.Text = "You have successfully logged in";
-                
+                UserLogIn(userManager, user);
+                                
+                if (User.IsInRole("admin")){
+                    Response.Redirect("~/admin/welcome_admin.aspx"); // this will redirect admin to welcome_admin page
+                }
+                else
+                {
+                    LitLoginResult.Text = "You have successfully logged in";
+                    Response.Redirect("~/default.aspx"); //this will redirect user to default_page
+                }
+
             }
             else
             {
@@ -44,21 +53,22 @@ namespace WPD_CollectorsDen
         {
             var authenticationManager = HttpContext.Current.GetOwinContext().Authentication;
             var userIdentity = usermanager.CreateIdentity(user, DefaultAuthenticationTypes.ApplicationCookie);
-            authenticationManager.SignIn(new AuthenticationProperties() { IsPersistent = false }, userIdentity);
-            Response.Redirect("login.aspx");
+            authenticationManager.SignIn(new Microsoft.Owin.Security.AuthenticationProperties() { IsPersistent = false }, userIdentity);
+            
         }
 
         protected void LogOut_click(object sender, EventArgs e)
         {
             var authenticationManager = HttpContext.Current.GetOwinContext().Authentication;
             authenticationManager.SignOut();
-            Response.Redirect("login.aspx");
+            Response.Redirect("~/default.aspx");
+            LitLogoutResult.Text = "You have successfully logged out";
         }
 
         //Registration starts here
         protected void btnregister_Click(object sender, EventArgs e)
         {
-            Page.Validate("two");  //Referred from Jakrahal's post on https://www.sitepoint.com/community/t/multiple-forms-on-one-aspx-page/4101
+            Page.Validate("reg_btn_valid");  //Referred from Jakrahal's post on https://www.sitepoint.com/community/t/multiple-forms-on-one-aspx-page/4101
             var CollectorsDenContext = new IdentityDbContext("CollectorsDenConnection");
             var userStore = new UserStore<IdentityUser>(CollectorsDenContext);
             var userManager = new UserManager<IdentityUser>(userStore);

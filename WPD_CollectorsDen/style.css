@@ -273,3 +273,9 @@ a:hover{
             height: 43px;
         }
 
+#ImageUploaded{
+    width: auto ;
+    height: auto;
+
+    padding: 10px;
+}

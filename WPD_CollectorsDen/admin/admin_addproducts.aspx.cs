@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace WPD_CollectorsDen.admin
 {
-    public partial class edit_database : System.Web.UI.Page
+    public partial class admin_addproducts : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -16,7 +16,12 @@ namespace WPD_CollectorsDen.admin
 
         protected void return_btn_Click(object sender, EventArgs e)
         {
-            Response.Redirect("admin_addproducts.aspx");
+            Response.Redirect("Welcome_admin.aspx");
+        }
+
+        protected void InsertButton(object sender, FormViewPageEventArgs e)
+        {
+            LitProductAddedResult.Text = "New product has been successfully added into the database!";
         }
 
         protected void EditButton(object sender, FormViewPageEventArgs e)
@@ -27,6 +32,11 @@ namespace WPD_CollectorsDen.admin
         protected void DeleteButton(object sender, FormViewPageEventArgs e)
         {
             LitProductDeleteResult.Text = "New product has been deleted!";
+        }
+
+        protected void FormView1_PageIndexChanging(object sender, FormViewPageEventArgs e)
+        {
+
         }
     }
 }

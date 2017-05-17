@@ -6,7 +6,7 @@
     <h2> Perfect Grade Unicorn Gundam Luminus Clear 7-11 Clear Exclusive </h2>
 
     <div id="image_product">
-        <img src="../../images/products/FG001.jpg" />
+        <img src="../../images/products/FG001.jpg" alt="GundamUnicorn" />
 
     </div>
 
@@ -32,6 +32,10 @@
 				</tr>
 								
 			</table>
-		</fieldset> <!--End Customer Info-->
-
+    
+		</fieldset> 
+    <br />
+    <asp:Button ID="place_order_link" runat="server" Text="Place Order" OnClick="place_order_link_Click" />
+    <asp:Literal ID="LitPlaceOrder" runat="server"></asp:Literal>
+    <br />
 </asp:Content>

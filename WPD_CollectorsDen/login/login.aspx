@@ -12,6 +12,7 @@
         </p>
     
     
+    
         <asp:Panel ID="loginPanel" DefaultButton="btnlogin" runat="server"> 
             <div id="loginbox2">
          
@@ -35,8 +36,9 @@
 
             </table>
                 <br />
-                <asp:Button ID="btnlogin" OnClick="btnlogin_Click" runat="server" Text="Login" ValidationGroup="one"/>
+                <asp:Button ID="btnlogin" OnClick="btnlogin_Click" runat="server" Text="Login" ValidationGroup="login_btn_valid"/>
                 <asp:Literal ID="LitLoginResult" runat="server"></asp:Literal>
+           <asp:Literal ID="LitLogoutResult" runat="server"></asp:Literal>
                 <asp:Literal ID="litLoginError" runat="server"></asp:Literal>
                
             </fieldset>
@@ -147,7 +149,7 @@
                 </table>
               <br />
 		
-				<asp:Button ID="btnregister" OnClick="btnregister_Click" runat="server"  Text="Register" ValidationGroup="two"/>
+				<asp:Button ID="btnregister" OnClick="btnregister_Click" runat="server"  Text="Register" ValidationGroup="reg_btn_valid"/>
 				<asp:Button ID="btnClear" OnClick="btnclear_Click" runat="server"  Text="Clear" />	
                 <asp:Literal ID="litRegisterError2" runat="server"></asp:Literal>
 

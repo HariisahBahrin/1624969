@@ -11,17 +11,29 @@ namespace WPD_CollectorsDen.admin
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            string ProductID = Request.QueryString["ProductID"];
+            string filename = ProductID + ".jpg";
+
+            imagecurrent.ImageUrl = "~/images/products/" + filename;
 
         }
 
         protected void UploadImage_Click(object sender, EventArgs e)
         {   
-            //string ProductID = Request.QueryString("ProductID");
-            //string filename = ProductID + ".jpg";
-            //string saveLocation = Server.MapPath("~/images/products" + filename);
+            string ProductID = Request.QueryString["ProductID"];
+            string filename = ProductID + ".jpg";
+            string saveLocation = Server.MapPath("~/images/products/" + filename);
 
-            //imageFileUploadControl.SaveAS(saveLocation);
-            
+            UploadControlimage.SaveAs(saveLocation);
+            Lituploadedimage.Text = "Image has been uploaded successfully!";
+
+        }
+
+        protected void return_btn_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Welcome_admin.aspx");
         }
     }
 }
+
+
