@@ -12,7 +12,7 @@
 		<div class="product_imgicon">
             <img alt="GundamUnicorn" class="auto-style5" runat="server" src="~/images/icons/FG001.jpg" /></div>
 		<ul class="product_ul">
-			 <li class="product_name"><a href="default.aspx">Perfect Grade Unicorn Gundam Luminus Clear 7-11 Clear Exclusive</a></li>
+			 <li class="product_name"><a href="product_details/FG001.aspx">Perfect Grade Unicorn Gundam Luminus Clear 7-11 Clear Exclusive</a></li>
 			<li class="in_stock">IN-STOCK</li>
 		    <li class="product_price"> BND$150.00 </li>
 		</ul>

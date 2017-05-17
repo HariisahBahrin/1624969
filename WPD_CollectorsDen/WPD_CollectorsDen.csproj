@@ -170,6 +170,7 @@
     <Content Include="admin\uploadImage.aspx" />
     <Content Include="admin\welcome_admin.aspx" />
     <Content Include="contact_us\contact.aspx" />
+    <Content Include="content_products\product_details\FG001.aspx" />
     <Content Include="images\banner\banner_01.jpg" />
     <Content Include="images\banner\line.png" />
     <Content Include="images\icons\fb-icon.png" />
@@ -301,6 +302,13 @@
     </Compile>
     <Compile Include="contact_us\contact.aspx.designer.cs">
       <DependentUpon>contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="content_products\product_details\FG001.aspx.cs">
+      <DependentUpon>FG001.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="content_products\product_details\FG001.aspx.designer.cs">
+      <DependentUpon>FG001.aspx</DependentUpon>
     </Compile>
     <Compile Include="Customer_Tbl.cs">
       <DependentUpon>Model1.tt</DependentUpon>

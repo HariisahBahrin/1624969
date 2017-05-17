@@ -7,6 +7,10 @@
         <img alt="banner_barbatos" id="banner_index" src="images/banner/banner_01.jpg" />&nbsp;</div>
 
         <br />
+        <!--<a href="<%# Eval("Id", "ProductDetails.aspx?Id={0}") %>">
+                     <%#Eval("product_name")%>
+                    </a>-->
+
 
      <table style="width:100%">
   
@@ -16,8 +20,8 @@
 		<div class="product_imgicon">
             <img alt="GundamUnicorn" class="auto-style5" runat="server" src="~/images/icons/FG001.jpg" /></div>
 		<ul class="product_ul">
-			 <li class="product_name"><a href="default.aspx">Perfect Grade Unicorn Gundam Luminus Clear 7-11 Clear Exclusive</a></li>
-			<li class="in_stock">IN-STOCK</li>
+			 <li class="product_name"><a href="content_products/product_details/FG001.aspx">Perfect Grade Unicorn Gundam Luminus Clear 7-11 Clear Exclusive</a>	</li>	
+             <li class="in_stock">IN-STOCK</li>
 		    <li class="product_price"> BND$150.00 </li>
 		</ul>
 	    </td>

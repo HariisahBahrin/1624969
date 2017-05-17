@@ -7,9 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WPD_CollectorsDen {
+namespace WPD_CollectorsDen.content_products.product_details {
     
     
-    public partial class _default {
+    public partial class FG001 {
     }
 }
