@@ -4,7 +4,8 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h1> Edit Products Database </h1>
 
-    
+    <!--Referred from  http://tutorials.tinyappco.com/ASPNET/Gridviews -->
+    <!-- Referref from http://tutorials.tinyappco.com/ASPNET/GridviewEditDelete -->
     <asp:Literal ID="LitProductUpdateResult" runat="server"></asp:Literal>
     <asp:Literal ID="LitProductDeleteResult" runat="server"></asp:Literal>
 

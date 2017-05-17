@@ -26,8 +26,8 @@
 		<div class="product_imgicon">
             <img alt="GundamUnicorn" class="auto-style5" runat="server" src="~/images/icons/FG001.jpg" /></div>
 		<ul class="product_ul">
-			 <li class="product_name"><a href="content_products/product_details/FG001.aspx">Perfect Grade Unicorn Gundam Luminus Clear 7-11 Clear Exclusive</a>	</li>	
-             <li class="in_stock">IN-STOCK</li>
+			 <li class="product_name"><a href="product_details/FG001.aspx">Perfect Grade Unicorn Gundam Luminus Clear 7-11 Clear Exclusive</a></li>
+			<li class="in_stock">IN-STOCK</li>
 		    <li class="product_price"> BND$150.00 </li>
 		</ul>
 	    </td>
@@ -35,7 +35,7 @@
         <div class="product_imgicon">
             <img alt="PGBanshee" class="auto-style6" runat="server" src="~/images/icons/FG002.jpg" /></div>
 		<ul class="product_ul">
-		  <li class="product_name"><a href="default.aspx">Perfect Grade Unicorn Gundam 02 Banshee Norn</a></li>
+		  <li class="product_name"><a href="product_details/FG002.aspx">Perfect Grade Unicorn Gundam 02 Banshee Norn</a></li>
 		<li class="in_stock">IN-STOCK</li>
             <li class="product_price">BND$89.00</li>
 		</ul>
@@ -44,11 +44,11 @@
 		<div class="product_imgicon">
             <img alt="barbatosfullmecha" class="auto-style7" runat="server" src="~/images/icons/FG003.jpg" /></div>
 		<ul class="product_ul">
-		  <li class="product_name"><a href="default.aspx">Full Mechanics Gundam Barbatos Lupus Rex Plastic Model from Mobile Suit Gundam Iron-Blooded Orphans</a></li>
+		  <li class="product_name"><a href="product_details/FG003.aspx">Full Mechanics Gundam Barbatos Lupus Rex Plastic Model from Mobile Suit Gundam Iron-Blooded Orphans</a></li>
 			<li class="in_stock">IN-STOCK</li>
 		    <li class="product_price"> BND$180.00 </li>
-		</ul>
-	    </td>
+            </ul>
+            </td>
   </tr>
   <tr>
     <td class="auto-style1"> 

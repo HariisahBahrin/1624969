@@ -14,7 +14,7 @@ namespace WPD_CollectorsDen.content_products
 
         }
 
-        protected void place_order_link_Click(object sender, EventArgs e)
+        protected void place_order_link_Click3(object sender, EventArgs e)
         {
             LitPlaceOrder.Text = "Thank you for placing your order!";
         }

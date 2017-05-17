@@ -2,6 +2,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
+    <!--Referred from http://tutorials.tinyappco.com/ASPNET/LinkImageToDatabaseRecord -->
     <h1>Upload Image</h1>
     <fieldset><legend>Upload Photo</legend>
     <asp:FileUpload ID="UploadControlimage" runat="server" />

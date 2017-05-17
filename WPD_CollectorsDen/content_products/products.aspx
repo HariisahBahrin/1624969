@@ -9,8 +9,7 @@
 
     <!--Price in Ascending order or descending order-->
 
-    <!--<asp:SqlDataSource ID="db_1624969_collectorsden_co5027" runat="server" ConnectionString="<%$ ConnectionStrings:CollectorsDenConnection %>" SelectCommand="SELECT [Product_Name], [Price], [StatusID] FROM [Products_tbl]"></asp:SqlDataSource>-->
-     <table style="width:100%">
+    <table style="width:100%">
   
    
   <tr>
@@ -27,7 +26,7 @@
         <div class="product_imgicon">
             <img alt="PGBanshee" class="auto-style6" runat="server" src="~/images/icons/FG002.jpg" /></div>
 		<ul class="product_ul">
-		  <li class="product_name"><a href="product_details/FG002.aspx">P">Perfect Grade Unicorn Gundam 02 Banshee Norn</a></li>
+		  <li class="product_name"><a href="product_details/FG002.aspx">Perfect Grade Unicorn Gundam 02 Banshee Norn</a></li>
 		<li class="in_stock">IN-STOCK</li>
             <li class="product_price">BND$89.00</li>
 		</ul>

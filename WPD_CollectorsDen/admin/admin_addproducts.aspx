@@ -2,6 +2,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
+    <!--Referred from  http://tutorials.tinyappco.com/ASPNET/Gridviews -->
     <asp:Literal ID="LitProductAddedResult" runat="server"></asp:Literal>
     <asp:Literal ID="LitProductUpdateResult" runat="server"></asp:Literal>
     <asp:Literal ID="LitProductDeleteResult" runat="server"></asp:Literal>
@@ -44,7 +46,7 @@
         </UpdateParameters>
     </asp:SqlDataSource>
 
-
+    <!--Referred from  http://tutorials.tinyappco.com/ASPNET/FormViews -->
     <asp:FormView ID="FormView1" runat="server" DataKeyNames="ProductID" DataSourceID="AdminAddProducts_DataSource" DefaultMode="Insert" Width="435px" OnPageIndexChanging="FormView1_PageIndexChanging">
         <EditItemTemplate>
             ProductID:

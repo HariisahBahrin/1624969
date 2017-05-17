@@ -35,6 +35,6 @@
     
 		</fieldset> 
     <br />
-    <asp:Button ID="place_order_link" runat="server" Text="Place Order" OnClick="place_order_link_Click" />
+    <asp:Button ID="place_order_link" runat="server" Text="Place Order" OnClick="place_order_link_Click3" />
     <asp:Literal ID="LitPlaceOrder" runat="server"></asp:Literal>
 </asp:Content>
